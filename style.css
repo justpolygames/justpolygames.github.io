@@ -69,3 +69,5 @@ h1,h2,h3{font-family:"Arial Black",Arial,Helvetica,sans-serif;font-weight:900}
 .search-row input{border-color:#5662a0}
 .spell-heading img{border-color:#7660b4}
 @media(forced-colors:active){.highlight{background:none;-webkit-text-fill-color:CanvasText}}
+
+.quintarc-art img{width:100%;height:100%;object-fit:contain;mix-blend-mode:normal;margin:0}.quintarc-art{background:#0c0b11}

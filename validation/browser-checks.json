@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "1440px index.html: no overflow, images, heading, anchors",
+    "1440px games/project-pencil.html: no overflow, images, heading, anchors",
+    "1440px games/quintarc.html: no overflow, images, heading, anchors",
+    "1440px: card navigation, spoiler, spell search / empty / clear",
+    "1440px credits.html: no overflow, images, heading, anchors",
+    "768px index.html: no overflow, images, heading, anchors",
+    "768px games/project-pencil.html: no overflow, images, heading, anchors",
+    "768px games/quintarc.html: no overflow, images, heading, anchors",
+    "768px: card navigation, spoiler, spell search / empty / clear",
+    "768px credits.html: no overflow, images, heading, anchors",
+    "390px index.html: no overflow, images, heading, anchors",
+    "390px games/project-pencil.html: no overflow, images, heading, anchors",
+    "390px games/quintarc.html: no overflow, images, heading, anchors",
+    "390px: card navigation, spoiler, spell search / empty / clear",
+    "390px credits.html: no overflow, images, heading, anchors",
+    "320px index.html: no overflow, images, heading, anchors",
+    "320px games/project-pencil.html: no overflow, images, heading, anchors",
+    "320px games/quintarc.html: no overflow, images, heading, anchors",
+    "320px: card navigation, spoiler, spell search / empty / clear",
+    "320px credits.html: no overflow, images, heading, anchors",
+    "No-JavaScript content and navigation"
+  ],
+  "errors": []
+}

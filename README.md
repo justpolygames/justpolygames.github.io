@@ -25,3 +25,7 @@ Edit HTML directly; shared styles and behavior live in `style.css` and `site.js`
 Game copy was checked against Project Pencil README and QUINTARC README, STORY_CAMPAIGN, SPELL_CATALOG, and generated spell descriptions on 2026-09-29. Development details may change. No public game download or hardware validation is promised.
 
 The existing Project Pencil cover and QUINTARC seal are reused from the owner’s game projects. The seal incorporates the previously licensed open-book silhouette from Game-icons.net; see `assets/ATTRIBUTION.md`. The portfolio controller is original CSS geometry. Visual inspiration: https://gitmastery.me/; no reference website code or assets were copied.
+
+## Studio branding
+
+The header, footer, and PNG favicon reuse the supplied `just-poly-icon.png` unchanged. Bold stacked lettering and the shared cyan, blue, and violet colors align the site with the Just Poly Games brand.

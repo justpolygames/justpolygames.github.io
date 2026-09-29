@@ -73,13 +73,15 @@ h1,h2,h3{font-family:"Arial Black",Arial,Helvetica,sans-serif;font-weight:900}
 .quintarc-art img{width:100%;height:100%;object-fit:contain;mix-blend-mode:normal;margin:0}.quintarc-art{background:#0c0b11}
 
 /* Store links: reversed split-button layout, icon segment first. */
+/* Store colors retain each platform identity, including unavailable stores. */
 .store-buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
-.store-button{display:inline-flex;align-items:stretch;min-height:46px;padding:0;border:1px solid #57bda0;border-radius:0;background:#f5fff9;color:#23664f;font-family:inherit;font-size:14px;font-weight:700;line-height:1.2;text-decoration:none;overflow:hidden;transition:background .15s,border-color .15s}
-.store-icon{display:flex;align-items:center;justify-content:center;flex:0 0 46px;width:46px;background:#57bda0}
+.store-button{--store-color:#fa5c5c;display:inline-flex;align-items:stretch;min-height:46px;padding:0;border:1px solid var(--store-color);border-radius:0;background:#fff;color:#a32232;font-family:inherit;font-size:14px;font-weight:700;line-height:1.2;text-decoration:none;overflow:hidden;transition:background .15s}
+.store-button--steam{--store-color:#171d25;color:#171d25}
+.store-button--epic{--store-color:#18181c;color:#18181c}
+.store-icon{display:flex;align-items:center;justify-content:center;flex:0 0 46px;width:46px;background:var(--store-color)}
 .store-icon img{width:22px;height:22px;object-fit:contain;background:transparent;border-radius:0;filter:brightness(0) invert(1)}
 .store-label{display:flex;align-items:center;justify-content:center;padding:12px 17px;white-space:nowrap}
-a.store-button:hover{background:#e1f8ed;border-color:#7bdcbb;transform:none}
-a.store-button:focus-visible{outline:3px solid #a0f2d2;outline-offset:4px}
-.store-button:disabled{border-color:#52606b;background:#242d36;color:#a7b0b7;cursor:not-allowed}
-.store-button:disabled .store-icon{background:#46515b}
-.store-button:disabled img{opacity:.65}
+a.store-button:hover{background:#fff0f0;transform:none}
+a.store-button:focus-visible{outline:3px solid #fa5c5c;outline-offset:4px}
+.store-button:disabled{cursor:not-allowed;opacity:1}
+.store-button:disabled .store-label{background:#edf0f3}

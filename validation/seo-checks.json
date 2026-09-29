@@ -1,0 +1,27 @@
+{
+  "pages": [
+    {
+      "page": "index.html",
+      "metadata": "passed"
+    },
+    {
+      "page": "games/project-pencil.html",
+      "metadata": "passed"
+    },
+    {
+      "page": "games/quintarc.html",
+      "metadata": "passed"
+    },
+    {
+      "page": "credits.html",
+      "metadata": "passed"
+    }
+  ],
+  "sitemap_urls": [
+    "https://justpolygames.github.io/",
+    "https://justpolygames.github.io/games/project-pencil.html",
+    "https://justpolygames.github.io/games/quintarc.html",
+    "https://justpolygames.github.io/credits.html"
+  ],
+  "errors": []
+}

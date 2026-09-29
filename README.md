@@ -1,6 +1,17 @@
 # Just Poly Games
 
-Anthony’s static indie-game portfolio, ready for GitHub Pages. No build step or dependencies are required.
+**Indie games by Anthony, a game developer from the Philippines.**
+
+[Visit the portfolio](https://justpolygames.github.io/) · [Project Pencil guide](https://justpolygames.github.io/games/project-pencil.html) · [QUINTARC guide](https://justpolygames.github.io/games/quintarc.html)
+
+I’m Anthony, the creator behind Just Poly Games. With experience in Web Design and UI/UX Design and a current role as a Product Manager, I’m turning a lifelong love of games into playable worlds.
+
+- **Project Pencil:** a first-person drawing adventure where sketches become tools, weapons, and new ways forward.
+- **QUINTARC:** elemental spellcasting with five elements, 126 spells, a narrative campaign, and arena modes.
+
+Both games are in development. This repository hosts their portfolio and player guides, including a searchable spell grimoire.
+
+A lightweight static website for GitHub Pages. No build step or dependencies are required.
 
 ## Preview
 
@@ -29,3 +40,13 @@ The existing Project Pencil cover and QUINTARC seal are reused from the owner’
 ## Studio branding
 
 The header, footer, and PNG favicon reuse the supplied `just-poly-icon.png` unchanged. Bold stacked lettering and the shared cyan, blue, and violet colors align the site with the Just Poly Games brand.
+
+## Search and social metadata
+
+Each page has a unique title and description, an absolute canonical URL, Open Graph and Twitter card metadata, and JSON-LD describing the studio, developer, website, or game. The game guides include breadcrumb data. No ratings, release dates, or download offers are invented.
+
+`robots.txt` permits crawling and points to `sitemap.xml`. After adding a page, add its entry in `tools/update_seo.py` and run `python3 tools/update_seo.py` to regenerate metadata and the sitemap. Image dimensions must match the original PNGs.
+
+Repository topics help discovery on GitHub. Indexing and rankings are determined by search engines; these changes do not establish indexing. Google Search Console ownership verification and sitemap submission have not been performed.
+
+References: [Google structured data guidance](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data), [Google sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).

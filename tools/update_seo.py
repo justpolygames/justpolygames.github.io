@@ -4,6 +4,7 @@ import html,json,re,struct,hashlib
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://justpolygames.github.io/'
 CSS_VERSION=hashlib.sha256((ROOT/'style.css').read_bytes()).hexdigest()[:12]
+JS_VERSION=hashlib.sha256((ROOT/'site.js').read_bytes()).hexdigest()[:12]
 PAGES={
  'index.html':('Just Poly Games - Indie Game Developer','Meet Anthony, a Filipino indie game developer, designer, and Product Manager. Explore Project Pencil and QUINTARC, with mechanics, controls, and game guides.','assets/just-poly-icon.png','Just Poly Games cyan, blue, and violet JP icon',1280,1280),
  'games/project-pencil.html':('Project Pencil — Drawing Adventure & Game Guide | Just Poly Games','Discover Project Pencil, a first-person drawing adventure. Learn how to draw tools and weapons, explore the story, and find game modes, controls, and tips.','assets/project-pencil.png','Project Pencil — Draw your way through',630,500),
@@ -32,7 +33,7 @@ for path,(title,description,img,alt,width,height) in PAGES.items():
  head=['<meta charset="utf-8">','<meta name="viewport" content="width=device-width, initial-scale=1">',f'<title>{esc(title)}</title>',f'<meta name="description" content="{esc(description)}">','<meta name="author" content="Anthony, Just Poly Games">','<meta name="robots" content="index, follow, max-image-preview:large">','<meta name="theme-color" content="#0b1020">',f'<link rel="canonical" href="{url}">']
  for prop,val in {'og:type':'website','og:site_name':'Just Poly Games','og:locale':'en_PH','og:title':title,'og:description':description,'og:url':url,'og:image':BASE+img,'og:image:alt':alt,'og:image:type':'image/png','og:image:width':width,'og:image:height':height}.items():head.append(f'<meta property="{prop}" content="{esc(val)}">')
  for prop,val in {'twitter:card':'summary','twitter:title':title,'twitter:description':description,'twitter:image':BASE+img,'twitter:image:alt':alt}.items():head.append(f'<meta name="{prop}" content="{esc(val)}">')
- head.extend([f'<link rel="icon" href="{prefix}assets/just-poly-icon.png" type="image/png">',f'<link rel="stylesheet" href="{prefix}style.css?v={CSS_VERSION}">',f'<script src="{prefix}site.js" defer></script>','<script type="application/ld+json">\n'+json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False,indent=2)+'\n</script>'])
+ head.extend([f'<link rel="icon" href="{prefix}assets/just-poly-icon.png" type="image/png">',f'<link rel="stylesheet" href="{prefix}style.css?v={CSS_VERSION}">',f'<script src="{prefix}site.js?v={JS_VERSION}" defer></script>','<script type="application/ld+json">\n'+json.dumps({'@context':'https://schema.org','@graph':graph},ensure_ascii=False,indent=2)+'\n</script>'])
  p=ROOT/path;text=p.read_text();text=re.sub(r'<head>.*?</head>','<head>\n'+'\n'.join(head)+'\n</head>',text,count=1,flags=re.S);p.write_text(text)
 (ROOT/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>{u}</loc></url>\n' for u in urls)+'</urlset>\n')
 (ROOT/'robots.txt').write_text('User-agent: *\nAllow: /\n\nSitemap: '+BASE+'sitemap.xml\n')

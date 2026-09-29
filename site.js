@@ -1,3 +1,8 @@
+// Keep old index.html bookmarks working while showing the clean homepage URL.
+if (window.location.pathname === '/index.html') {
+  window.history.replaceState(window.history.state, '', '/' + window.location.search + window.location.hash);
+}
+
 const search = document.querySelector('#spell-search');
 if (search) {
   const cards = [...document.querySelectorAll('.spell-card')];

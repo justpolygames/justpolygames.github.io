@@ -1,0 +1,20 @@
+Rock Golem
+Source: https://opengameart.org/content/rock-golem
+Download: https://opengameart.org/sites/default/files/RockGolem.blend
+Original mesh: hendori-sama (https://www.blendswap.com/blends/view/68618)
+Rig/UV improvements: umask007 (https://opengameart.org/content/fireicestone-golem)
+Texture and animation revision: Dm3d, OpenDungeons
+License selected: Creative Commons Attribution 3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+
+QUINTARC adaptation: converted the supplied mesh, skin weights, UVs and native
+animations to glTF; rebuilt legacy material connections using the packed original
+diffuse texture; discarded the source camera, floor and separate thrown-rock prop.
+Runtime sizing, material tint and sourced particle attachments create elemental
+variants. Original source retained in incoming-assets/quintarc-rock-golem.blend.
+Reproducible conversion: tools/import_golem_asset.py (Blender --disable-autoexec).
+
+2026-09-29 correction: bake the source Mirror modifier before glTF conversion.
+The earlier export contained only the editable half-mesh. The complete source
+mesh has 1,795 vertices and 1,692 faces before glTF UV/normal splitting;
+Armature skinning and all eight exported native clips remain intact.

@@ -1,0 +1,13 @@
+Pencil writing sound
+
+Original: pencil_write by NachtmahrTV
+https://freesound.org/s/571800/
+Distributed in Pencil Sounds by AntumDeluge:
+https://opengameart.org/content/pencil-sounds
+https://opengameart.org/sites/default/files/pencil.zip
+
+License: Creative Commons Zero (CC0 1.0)
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Project Pencil adaptation: trimmed silence, mixed to mono, gently filtered,
+and crossfaded the loop boundary. Encoded as Ogg Vorbis.

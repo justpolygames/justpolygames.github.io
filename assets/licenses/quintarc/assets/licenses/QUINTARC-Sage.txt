@@ -1,0 +1,12 @@
+Quaternius — RPG Character Pack (2020)
+Source: https://quaternius.com/packs/rpgcharacters.html
+License: CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/
+Original license: assets/quintarc/sage/License.txt
+Original public file IDs and hashes: assets/quintarc/sage/sources.json
+
+Consumed models: Wizard, Cleric, Rogue, Ranger, with embedded source textures
+and original animation clips. Godot extracts embedded textures on import; retain
+the extracted PNGs alongside the glTF files. No generated replacement artwork.
+Runtime adaptations: uniform height normalization, hidden weapons/pouches,
+source animation selection, back-mounted Wizard staff and belt-mounted pouch.
+Alchemist vial uses the existing licensed Dungeon bottle_B_green asset.

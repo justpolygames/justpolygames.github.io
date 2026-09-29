@@ -1,0 +1,20 @@
+QUINTARC spell audio sources — CC0
+JaggedStone: https://opengameart.org/content/magic-spell-sfx
+qubodup: https://opengameart.org/content/earth-element-magic-spell
+Augmentality (Brandon Morris), submitted by HaelDB: https://opengameart.org/content/spell-sounds
+CC0 chosen where offered: https://creativecommons.org/publicdomain/zero/1.0/
+Bounded cast/impact cues trimmed, filtered, normalized and faded by tools/prepare_spell_audio.py. Originals retained.
+
+2026-09-28 follow-up: tools/refine_spell_audio.py replaces the UI cues with
+Kenney RPG Audio / Impact Sounds recordings and uses distinct cast/impact attacks.
+Source paths and processing are recorded in assets/quintarc/audio/processing.json.
+Additional licenses: Kenney-RPG-Audio.txt, Kenney-Sci-Fi-Sounds.txt, sounds-CC0.txt.
+Leading silence is removed before bounded trimming; limiter precedes Ogg encoding.
+Run prepare_spell_audio.py then refine_spell_audio.py to reproduce the current mix.
+
+2026-09-29 skill matching: tools/prepare_skill_audio.py derives 20 bounded action
+cues from the retained CC0 magic, RPG, sci-fi and impact recordings above. Exact
+source paths and processing: assets/quintarc/audio/skill-processing.json.
+Runtime combines action identity with quieter recipe-element accents, shield,
+root/silence and signature cues. No synthesized or newly generated source audio.
+Reproduce: prepare_spell_audio.py, refine_spell_audio.py, prepare_skill_audio.py.

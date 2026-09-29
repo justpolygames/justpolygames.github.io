@@ -1,0 +1,23 @@
+Icons made by Delapouite, Lorc, Carl Olsen, Sbed and Skoll — game-icons.net
+License: Creative Commons Attribution 3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+Life icon made by Zeromancer — CC0.
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Exact source URLs, authors and original download hashes:
+assets/quintarc/symbols/sources.json
+Upstream contributor license: assets/quintarc/symbols/license.txt
+
+Changes: black square backgrounds removed; runtime tinting and sizing.
+The app icon assets/quintarc.svg uses Delapouite's spell-book silhouette tinted
+antique gold on a dark rounded field. assets/quintarc/splash.png is its PNG render.
+No AI-generated imagery is used in these assets.
+
+Open book (Invoke) and Book cover (Skills): Lorc, game-icons.net, CC BY 3.0.
+https://game-icons.net/1x1/lorc/open-book.html
+https://game-icons.net/1x1/lorc/book-cover.html
+QUINTARC game emblem incorporates the Open book with five orb circles and a frame.
+
+2026-09-29: quintarc-app.svg and quintarc-app.png reuse the same attributed
+book emblem inside the existing main-menu elemental seal. Reproduced by
+tools/build_game_icon.py; no new source artwork.

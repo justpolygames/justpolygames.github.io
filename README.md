@@ -50,3 +50,7 @@ Each page has a unique title and description, an absolute canonical URL, Open Gr
 Repository topics help discovery on GitHub. Indexing and rankings are determined by search engines; these changes do not establish indexing. Google Search Console ownership verification and sitemap submission have not been performed.
 
 References: [Google structured data guidance](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data), [Google sitemap guidance](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+
+## Game reference content
+
+Project Pencil includes all 30 drawing recipes plus the permanent Pencil, seven base mobs, and its named guardians. QUINTARC includes seven base mobs, its five campaign guardians, and all 126 matching skill icons. `validation/guide-content-sources.json` records source paths, names, and copied icon hashes. Icon attribution is on the Credits page and in `assets/skill-icons/LICENSE.txt`.

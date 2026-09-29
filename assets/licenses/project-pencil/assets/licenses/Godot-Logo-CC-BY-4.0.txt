@@ -1,0 +1,9 @@
+Godot Engine Logo
+Copyright (c) 2017 Andrea Calabro (Andrea Calabró).
+Licensed under Creative Commons Attribution 4.0 International:
+https://creativecommons.org/licenses/by/4.0/
+
+Unmodified logo from the Godot Engine press kit:
+https://godotengine.org/assets/press/logo_small_color_light.svg
+https://godotengine.org/press/
+Used to identify the engine powering Project Pencil by After Frame.

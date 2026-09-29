@@ -1,0 +1,98 @@
+{
+  "book": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/spell-book.svg",
+    "author": "delapouite",
+    "license": "CC BY 3.0",
+    "sha256": "4966d0148d28ff97f20d4528827517f7e49ea251b51d899874839a2a0573d9a2",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "0deb62f50232a32d69afbbb63a89056007fcd7bcc89ed3923b4bbc0909172bfb"
+  },
+  "fire": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/carl-olsen/flame.svg",
+    "author": "carl-olsen",
+    "license": "CC BY 3.0",
+    "sha256": "49e7468e3d989f6130242d024eb1f4f42686ccfc5792db6dceac2ee13edcf727",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "7424d535c14cc35e1dbcc6ec04d0bf9716cfc04aef32a5281e97b6b5d0c42d2d"
+  },
+  "water": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/sbed/water-drop.svg",
+    "author": "sbed",
+    "license": "CC BY 3.0",
+    "sha256": "90b5e5a161c83fe535d0a1abfec4c85efc69a5206d89b478295947d7cfeb30fa",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "077f51f6edff4e30ed62c84ecbe1220655a0bf00e8d55047dd84233357c31e06"
+  },
+  "earth": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/stone-block.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "f08c6f33c8ea546305387087e4a75c57c12152a6270742c5a730ebeb2b4f0572",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "6ebf867739fc1936994b106bd8fe08dad49f87277bcb09da13d4f79dad3cbc91"
+  },
+  "air": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/wind-hole.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "aeb5c94b6986f9976f3f74ed4e5fbeae8fed335f10034ab7257b6620944ad0b1",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "305c2c89731d8a6bd3e4291ec8d44cb57f111d7f2b3f0935074af5562e2bf35a"
+  },
+  "arcane": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/magic-swirl.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "0caf11370169ccf706b8ff1beb6ac9f7d3246ac770063c654dd42df0f592addd",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "ee5c481f725e948c22e0d88d81e635eb0098398717aa0e180027932f3048460f"
+  },
+  "circle": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/skoll/pentacle.svg",
+    "author": "skoll",
+    "license": "CC BY 3.0",
+    "sha256": "70bdc3453200a0b53e9a85a191b038930fc5dfc418692f4352b2c49c7ef6a2b5",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "f346e73b641b4fcff676dc31c48bbf17ce5f24bd134e61b03f57f77bb5631a8e"
+  },
+  "life": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/zeromancer/heart-plus.svg",
+    "author": "zeromancer",
+    "license": "CC0",
+    "sha256": "95c15119bf69d0b40bac99363e8683327e504849a9b65aef6ef8dd38d56f88c0",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "0875e065cb6f46121d3f6c3fb8c88459dc2988fbfe6ca8cf9046d41d7d5d8a76"
+  },
+  "mana": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/magic-potion.svg",
+    "author": "delapouite",
+    "license": "CC BY 3.0",
+    "sha256": "4c087818f17b886d98eb440912c0bfd3d86ca97373e7f488f5e901a700cab51a",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "80475cbfec75a8d1376e12b0e9b8f8c3a87b1a4a1e58cc2e6cf8d5a29147e58c"
+  },
+  "rune": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/rune-stone.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "12bfb1ab9a536fd3cb04bbb68773631c88a4cc2a4c5aba87ad078794dc39921c",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "83e0f3b4983fa7d95161e1ae2451a8c61d3d57d11c991cf1cb725c8483604e2e"
+  },
+  "invoke": {
+    "author": "Lorc",
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/open-book.svg",
+    "license": "CC BY 3.0",
+    "sha256": "fea1988dca10d827a6159328da655f9aaefcd642e2a08588d728424190fcd285",
+    "runtime_sha256": "2569ebd58f3736bddd77bb9226e3b02c6418e0d0f50f5edaab2ad9396571b01c",
+    "modifications": "Transparent background; runtime tint"
+  },
+  "skills": {
+    "author": "Lorc",
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/book-cover.svg",
+    "license": "CC BY 3.0",
+    "sha256": "b7b0b9a4c636125fbad2421d6d2c940bc8bdbc315283a10b7f7d1ab5a9e990c2",
+    "runtime_sha256": "9fd25aaf635652e9da6d7a32afc1524156fad4c2f8945f1a63b37478e2072f16",
+    "modifications": "Transparent background; runtime tint"
+  }
+}

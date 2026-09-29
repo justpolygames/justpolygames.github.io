@@ -1,0 +1,1047 @@
+{
+  "source_date": "2026-09-29",
+  "project_pencil": {
+    "sources": [
+      "scripts/catalog.gd",
+      "scripts/enemy.gd",
+      "scripts/story.gd"
+    ],
+    "items": {
+      "pencil": {
+        "name": "Pencil",
+        "group": "Permanent",
+        "description": "Your one permanent tool. Draw an idea into existence."
+      },
+      "knife": {
+        "name": "Knife",
+        "group": "Weapons",
+        "description": "Quick, close-range strikes."
+      },
+      "karambit": {
+        "name": "Karambit",
+        "group": "Weapons",
+        "description": "A hooked blade for quick slashes."
+      },
+      "dagger": {
+        "name": "Dagger",
+        "group": "Weapons",
+        "description": "Draw a triangle on top and one straight line below for the handle. A quick primary slash."
+      },
+      "sword": {
+        "name": "Sword",
+        "group": "Weapons",
+        "description": "A balanced blade. Left: slash. Right: smash."
+      },
+      "axe": {
+        "name": "Axe",
+        "group": "Weapons",
+        "description": "Heavy blows with a slower recovery."
+      },
+      "sickle": {
+        "name": "Sickle",
+        "group": "Weapons",
+        "description": "A curved harvesting blade."
+      },
+      "shuriken": {
+        "name": "Shuriken",
+        "group": "Ammunition",
+        "description": "Draw a four-point star or a simple cross. Spins and sticks to solid surfaces."
+      },
+      "nunchuck": {
+        "name": "Nunchaku",
+        "group": "Weapons",
+        "description": "Two colored handles connected by a chain."
+      },
+      "hammer": {
+        "name": "Hammer",
+        "group": "Weapons",
+        "description": "A heavy overhead smash."
+      },
+      "club": {
+        "name": "Club",
+        "group": "Weapons",
+        "description": "A simple blunt weapon."
+      },
+      "thorn_club": {
+        "name": "Thorn Club",
+        "group": "Weapons",
+        "description": "A wooden club with short thorns around its rounded head."
+      },
+      "bat": {
+        "name": "Bat",
+        "group": "Weapons",
+        "description": "A round wooden bat with a narrow grip. Long reach and a broad swing."
+      },
+      "slingshot": {
+        "name": "Slingshot",
+        "group": "Weapons",
+        "description": "Consumes marbles from your backpack."
+      },
+      "pebbles": {
+        "name": "Marble",
+        "group": "Ammunition",
+        "description": "Adds one marble to your backpack."
+      },
+      "bow": {
+        "name": "Bow",
+        "group": "Weapons",
+        "description": "Draw a D in one stroke. Uses arrows drawn separately."
+      },
+      "arrows": {
+        "name": "Arrows",
+        "group": "Ammunition",
+        "description": "Draw a straight shaft and both sides of an open arrowhead. No tail feathers needed. Adds one arrow."
+      },
+      "bomb": {
+        "name": "Bomb",
+        "group": "Weapons",
+        "description": "Throw to light a three-second fuse."
+      },
+      "bowling_ball": {
+        "name": "Bowling Ball",
+        "group": "Weapons",
+        "description": "Falling speed increases impact damage."
+      },
+      "helm": {
+        "name": "Helm",
+        "group": "Armor",
+        "description": "Equip for 15 armor points."
+      },
+      "shield": {
+        "name": "Shield",
+        "group": "Utilities",
+        "description": "Push enemies back without damage. Stow on your back to use other items."
+      },
+      "plate": {
+        "name": "Armor Plate",
+        "group": "Armor",
+        "description": "Equip for 35 armor points."
+      },
+      "boots": {
+        "name": "Boots",
+        "group": "Armor",
+        "description": "Equip for 15 armor points."
+      },
+      "spring_boots": {
+        "name": "Spring Boots",
+        "group": "Armor",
+        "description": "Five high jumps with no fall damage, then becomes normal boots."
+      },
+      "pouch": {
+        "name": "Pouch",
+        "group": "Utilities",
+        "description": "Draw a vase outline with a narrow neck and wide, rounded body. Equip to carry up to 20 marbles."
+      },
+      "quiver": {
+        "name": "Quiver",
+        "group": "Utilities",
+        "description": "Equip to increase arrow storage from 1 to 20."
+      },
+      "box": {
+        "name": "Box",
+        "group": "Utilities",
+        "description": "Draw a square. A solid step or barricade lasting two minutes."
+      },
+      "portal": {
+        "name": "Door",
+        "group": "Utilities",
+        "description": "Draw a rectangle with a small circle inside for the doorknob. Draw near the wall bottom; both doors snap to the floor."
+      },
+      "hole": {
+        "name": "Hole",
+        "group": "Utilities",
+        "description": "Draw a circle with an X on a floor or wall within 12 feet. Wall holes pass thrown items but block players. Size follows your drawing; ground floors become pits."
+      },
+      "secret_bomb": {
+        "name": "Secret Bomb",
+        "group": "Secrets",
+        "description": "An optional sticky explosive. It sticks on impact; drawing size controls the blast radius."
+      },
+      "claw_trap": {
+        "name": "Clawed Trap",
+        "group": "Secrets",
+        "description": "An optional drawn trap, available through the Secret recipes setting."
+      }
+    },
+    "mobs": [
+      [
+        "Ink Wraith",
+        "Melee pursuer",
+        "Closes the distance and attacks at close range. Keep moving and watch its windup."
+      ],
+      [
+        "Ink Spider",
+        "Fast lunge",
+        "A faster, smaller enemy that lunges during its attack. Make room before it commits."
+      ],
+      [
+        "Spitter Toad",
+        "Ranged spitter",
+        "A slower creature that fires a ranged shot. Break its line of sight or move out of the projectile\u2019s path."
+      ],
+      [
+        "Ink Ogre",
+        "Heavy area slam",
+        "A tougher melee creature with a ground slam. Get clear of the impact area during the warning."
+      ],
+      [
+        "Paper Sentinel",
+        "Area slam",
+        "A sentinel that uses the heavy slam attack. Its reach makes standing beside it risky."
+      ],
+      [
+        "Thorn Bloom",
+        "Three-shot volley",
+        "Fires three spread projectiles. Use cover and avoid the fan of shots."
+      ],
+      [
+        "The Last Eraser",
+        "Flying final boss",
+        "An airborne moth that attacks with volleys and calls guards below half health in Story. The rooftop repeaters offer another way to fight back."
+      ]
+    ],
+    "bosses": [
+      [
+        "Crypt Ogre",
+        "Heavy slam guardian"
+      ],
+      [
+        "Archive Widow",
+        "Lunging spider guardian"
+      ],
+      [
+        "Foundry Toad King",
+        "Ranged toad guardian"
+      ],
+      [
+        "Glasshouse Reaper",
+        "Melee wraith guardian"
+      ]
+    ]
+  },
+  "quintarc": {
+    "sources": [
+      "data/spell_recipes.json",
+      "data/spell_icons.json",
+      "scripts/enemy.gd",
+      "data/story_campaign.json"
+    ],
+    "mobs": [
+      [
+        "Bonebound",
+        "Melee pursuer",
+        "A close-range skeleton enemy. Create space or interrupt its approach with your spells."
+      ],
+      [
+        "Dusk Bat",
+        "Fast lunge",
+        "A small, fast creature with a lunging attack. Watch the windup and move before contact."
+      ],
+      [
+        "Blight Slime",
+        "Ranged spitter",
+        "A slower ranged enemy that fires a projectile. Reposition or use cover to break its line of sight."
+      ],
+      [
+        "Ossuary Warden",
+        "Heavy area slam",
+        "A tougher enemy with a sweeping ground slam. Move clear of the warning area before impact."
+      ],
+      [
+        "Crypt Sentinel",
+        "Area slam",
+        "A sentinel with the heavy slam routine. Its area attack punishes staying too close."
+      ],
+      [
+        "Hollow Seer",
+        "Three-shot volley",
+        "A ranged caster that sends three projectiles in a spread. Use cover or dodge away from the volley."
+      ],
+      [
+        "Ash Drake",
+        "Flying boss",
+        "A winged enemy with charged flame volleys. Its three-shot volleys widen to five below half health."
+      ]
+    ],
+    "bosses": [
+      [
+        "Rootbound Warden",
+        "Earth \u00b7 Heavy melee slam"
+      ],
+      [
+        "Cinder Marshal",
+        "Fire \u00b7 Sentinel slam"
+      ],
+      [
+        "Drowned Cantor",
+        "Water \u00b7 Ranged slime attacks"
+      ],
+      [
+        "Hollow Herald",
+        "Air \u00b7 Melee pursuit"
+      ],
+      [
+        "Unbound Regent",
+        "Arcane \u00b7 Flying dragon with charged volleys"
+      ]
+    ],
+    "skill_icons": [
+      {
+        "recipe": "50000",
+        "name": "Cataclysm",
+        "file": "assets/skill-icons/explosion-orange-3.png",
+        "sha256": "2b2d177c78ae17966202411ca37b44023109f5e1b6d618a5e38b559277181015"
+      },
+      {
+        "recipe": "05000",
+        "name": "Leviathan Surge",
+        "file": "assets/skill-icons/rip-water-3.png",
+        "sha256": "d2e6ff2af53d03c4e067c81b45f6335f05f1fabbac5024a66c7034fa9eeb6f9c"
+      },
+      {
+        "recipe": "00500",
+        "name": "Worldbreaker",
+        "file": "assets/skill-icons/rock-plain-3.png",
+        "sha256": "aecaaad0b1783af21424abbf1ef431d18567f5e567e8c63d785a4375432aaaa8"
+      },
+      {
+        "recipe": "00050",
+        "name": "Tempest",
+        "file": "assets/skill-icons/wind-sky-3.png",
+        "sha256": "648775256d956e4eabec48fa511a259eeee05a7fa98c30e8e60ee375016eb582"
+      },
+      {
+        "recipe": "00005",
+        "name": "Arcane Ascension",
+        "file": "assets/skill-icons/light-royal-2.png",
+        "sha256": "e39fddd3d4ff582c598ddacc32b856ac70639d67d0bfdf56decf718057ec9443"
+      },
+      {
+        "recipe": "41000",
+        "name": "Scalding Inferno",
+        "file": "assets/skill-icons/explosion-orange-1.png",
+        "sha256": "c9e200484dfe2a36d43ccc1315dbd18196f039db9c80ea0f7f3af0966fbe369f"
+      },
+      {
+        "recipe": "40100",
+        "name": "Magma Burst",
+        "file": "assets/skill-icons/fireball-red-2.png",
+        "sha256": "da50fa9dc62160ff91b4bc3025890c26b0fce144c1d94b0df2d78abf5aca619f"
+      },
+      {
+        "recipe": "40010",
+        "name": "Wildfire",
+        "file": "assets/skill-icons/fire-arrows-3.png",
+        "sha256": "eb4578f72d02fe5835bf512f5fa1b0e37b0c057da31437ac69038d134728e437"
+      },
+      {
+        "recipe": "40001",
+        "name": "Arcane Flame",
+        "file": "assets/skill-icons/fireball-red-1.png",
+        "sha256": "0eca8d898008bfaec2107d331c88fb9968e98b1a441dd513c1c68631544db256"
+      },
+      {
+        "recipe": "14000",
+        "name": "Boiling Tide",
+        "file": "assets/skill-icons/rip-water-1.png",
+        "sha256": "12ec5c0721030d07d5a64e0d46837902dd19b69fd1ff4ebe62a366468353bb8f"
+      },
+      {
+        "recipe": "04100",
+        "name": "Mudslide",
+        "file": "assets/skill-icons/rip-jade-3.png",
+        "sha256": "8e7e1f48af6d17eb52c0d681b0e854f0b120c85442572592e685ff7e9aec539a"
+      },
+      {
+        "recipe": "04010",
+        "name": "Riptide",
+        "file": "assets/skill-icons/fog-blue-1.png",
+        "sha256": "40fe40825800b8efb301d14978d184ce0d63c3350dd38d9af9c3008a093c60bf"
+      },
+      {
+        "recipe": "04001",
+        "name": "Mana Spring",
+        "file": "assets/skill-icons/runes-blue-1.png",
+        "sha256": "2b9388235e463e1ad99382b788688ad9773d8dc3816203a084b5634ad206dd3a"
+      },
+      {
+        "recipe": "10400",
+        "name": "Volcanic Armor",
+        "file": "assets/skill-icons/protect-orange-2.png",
+        "sha256": "f3584a7f91a1d2f8069d47ec283f3d03daf39268938cdeb33fe89b4b34ce47f3"
+      },
+      {
+        "recipe": "01400",
+        "name": "Clay Prison",
+        "file": "assets/skill-icons/vines-jade-3.png",
+        "sha256": "12a51f4e1c535c4e58e834830bfd23ea72b8700c7fc4487c4ed71461ef46079c"
+      },
+      {
+        "recipe": "00410",
+        "name": "Sandblast",
+        "file": "assets/skill-icons/beam-jade-2.png",
+        "sha256": "6510d65b24c0203008317e3fd6c99550b3646e5f863535b330d8b1af73eaaa6f"
+      },
+      {
+        "recipe": "00401",
+        "name": "Runic Bastion",
+        "file": "assets/skill-icons/protect-royal-3.png",
+        "sha256": "f8129fd29834d08d0f58a997b7814516a62c1e4a97880dac32a13d164403352f"
+      },
+      {
+        "recipe": "10040",
+        "name": "Heatwave",
+        "file": "assets/skill-icons/fog-air-3.png",
+        "sha256": "0eee6feeae2bc28141b709fb60307159260b9137b1944351a9c7671d8044e02b"
+      },
+      {
+        "recipe": "01040",
+        "name": "Monsoon",
+        "file": "assets/skill-icons/light-sky-1.png",
+        "sha256": "44ada104b210ba4a9ecd1f9e75ebf695984f17ebe28bbf57e167b1f52ec9e52f"
+      },
+      {
+        "recipe": "00140",
+        "name": "Dust Devil",
+        "file": "assets/skill-icons/wind-sky-2.png",
+        "sha256": "e4c996c999f39ae1edffd0d9cc2a309feb839fe083f3a60e84ec4e59a5333c7b"
+      },
+      {
+        "recipe": "00041",
+        "name": "Blink Wind",
+        "file": "assets/skill-icons/haste-sky-1.png",
+        "sha256": "c8cb4f5bb67754d65411fab064f48a890da2dff5262777eff4861fb3ceab68cb"
+      },
+      {
+        "recipe": "10004",
+        "name": "Arcane Detonation",
+        "file": "assets/skill-icons/fireball-eerie-1.png",
+        "sha256": "d77320214446474dbb483d9befe10e7d634c9cd6c275dbbc61a4d4c5930bec19"
+      },
+      {
+        "recipe": "01004",
+        "name": "Arcane Renewal",
+        "file": "assets/skill-icons/light-royal-1.png",
+        "sha256": "9728f62584f62afe22407b6b65383e1cbb04f0362481e0a506696269576c8191"
+      },
+      {
+        "recipe": "00104",
+        "name": "Arcane Construct",
+        "file": "assets/skill-icons/wild-acid-3.png",
+        "sha256": "6d59a686fde8b129e80636fafbe0b727680baae842eff46b5a8d702eb9e5515a"
+      },
+      {
+        "recipe": "00014",
+        "name": "Phase Step",
+        "file": "assets/skill-icons/link-royal-1.png",
+        "sha256": "cee367694d0f86b87a5e580b3781f152bd63c51702a532201e40a80388b03b37"
+      },
+      {
+        "recipe": "32000",
+        "name": "Steam Cannon",
+        "file": "assets/skill-icons/beam-red-2.png",
+        "sha256": "065353ac1c7487636511bb3c99eae2a7da225ded8ef91d1b08b83e8aa8728900"
+      },
+      {
+        "recipe": "30200",
+        "name": "Magma Eruption",
+        "file": "assets/skill-icons/explosion-red-2.png",
+        "sha256": "9cb3a15194d14c330aa4cf51116f74b7eaf0b6c3cf650a4146f7c4eeb291da45"
+      },
+      {
+        "recipe": "30020",
+        "name": "Flame Cyclone",
+        "file": "assets/skill-icons/wind-red-3.png",
+        "sha256": "aeffc9ae0c91885386b52f86a679ade12d517c2c9411e5005724d35504b87e33"
+      },
+      {
+        "recipe": "30002",
+        "name": "Soulfire",
+        "file": "assets/skill-icons/beam-eerie-3.png",
+        "sha256": "136f8fcad376d2e7a01cbcceb0a2e6729d6a57749a38f291053f83a75b0cfca2"
+      },
+      {
+        "recipe": "23000",
+        "name": "Scalding Torrent",
+        "file": "assets/skill-icons/rip-sky-3.png",
+        "sha256": "d135eb7966e585f78353998017cd3b16cf58aa3fe83b55d92fdfd5bd552c3e2d"
+      },
+      {
+        "recipe": "20300",
+        "name": "Meteor",
+        "file": "assets/skill-icons/rock-orange-2.png",
+        "sha256": "2e81beb28629ff1be27831ef71170c9f9ba0313edcda716e617ff9125854e313"
+      },
+      {
+        "recipe": "20030",
+        "name": "Firestorm",
+        "file": "assets/skill-icons/fog-orange-3.png",
+        "sha256": "136a2dd4c9e8b162d8549f6ff561bef0ce1de45beb4a8f5801de2d9e2d3e98d3"
+      },
+      {
+        "recipe": "20003",
+        "name": "Arcane Bomb",
+        "file": "assets/skill-icons/fireball-eerie-3.png",
+        "sha256": "dbb22acae2a24e1dcc16f651029e86d8d8e4a086c6acb98ad625435c4c4f2f64"
+      },
+      {
+        "recipe": "03200",
+        "name": "Quicksand",
+        "file": "assets/skill-icons/fog-acid-1.png",
+        "sha256": "73c096f37839c9e635f98cb775bc3f1c33055ebe2c9615ed3c87e08cfbc6ce98"
+      },
+      {
+        "recipe": "03020",
+        "name": "Maelstrom",
+        "file": "assets/skill-icons/fog-blue-3.png",
+        "sha256": "aef1f4d6af077275946e077392edb2ce67d2a15eed7a8267259f7196c4bc22d9"
+      },
+      {
+        "recipe": "03002",
+        "name": "Restoration Field",
+        "file": "assets/skill-icons/heal-sky-2.png",
+        "sha256": "36283206bf176c174d6fad0f065520169006e7332377c74db21ce5abb523dfb6"
+      },
+      {
+        "recipe": "02300",
+        "name": "Stone Flood",
+        "file": "assets/skill-icons/rock-plain-2.png",
+        "sha256": "1bc839304c46afac8cbc3d8e68edae39f9f72c6ae8057a14378f04058c098bb5"
+      },
+      {
+        "recipe": "02030",
+        "name": "Hurricane",
+        "file": "assets/skill-icons/wind-blue-1.png",
+        "sha256": "7fbcd29235283feb8ffdf037207a568eb09e354659b0e1e1600d2223d940741c"
+      },
+      {
+        "recipe": "02003",
+        "name": "Mana Tide",
+        "file": "assets/skill-icons/light-royal-3.png",
+        "sha256": "1c0dcdabd782793687ece4b3663633b8b26ce4e60e3c357d7943f01bea2694ae"
+      },
+      {
+        "recipe": "00320",
+        "name": "Sandstorm",
+        "file": "assets/skill-icons/vines-plain-3.png",
+        "sha256": "67bd4ff46201b1c1b6617bfb7fcca7091edaacd42d5b09388ff05ae5ab6183e4"
+      },
+      {
+        "recipe": "00302",
+        "name": "Golem",
+        "file": "assets/skill-icons/wild-jade-2.png",
+        "sha256": "4ed7c86fcf49745f34aef0cc936afecd7d5482b66ff8a7229418d8587f8d8a4b"
+      },
+      {
+        "recipe": "00230",
+        "name": "Rock Barrage",
+        "file": "assets/skill-icons/needles-sky-1.png",
+        "sha256": "fe56c5d6da9d43ac496ecfc2b14a6e5bd4e2c5b0ef33040efeb0b2c660994797"
+      },
+      {
+        "recipe": "00203",
+        "name": "Gravity Well",
+        "file": "assets/skill-icons/runes-magenta-1.png",
+        "sha256": "3dd9d49e1584f55e6a08161b3f96dad223cae52808d11846b52f399dc0322d15"
+      },
+      {
+        "recipe": "00032",
+        "name": "Warp Cyclone",
+        "file": "assets/skill-icons/wind-magenta-2.png",
+        "sha256": "ca138194b0a1609571535e1e980e8f79218734dc96d9c991b4948dac85303e70"
+      },
+      {
+        "recipe": "00023",
+        "name": "Phase Rush",
+        "file": "assets/skill-icons/haste-royal-3.png",
+        "sha256": "3517b70ad802c4cd2a7b25c06e2d322b62d093f7cc35ae1c0b74b78556fe2935"
+      },
+      {
+        "recipe": "31100",
+        "name": "Volcanic Steam",
+        "file": "assets/skill-icons/explosion-sky-2.png",
+        "sha256": "d706543d647bdc5d7ff06964dc1a5cd1836566a0cf96af029f5d162d5fb90eea"
+      },
+      {
+        "recipe": "31010",
+        "name": "Scorching Mist",
+        "file": "assets/skill-icons/fire-arrows-1.png",
+        "sha256": "f19d02eef0d54c34d9fe2a32b13c311aac546eecfc5234cb568551d3b4bdb998"
+      },
+      {
+        "recipe": "31001",
+        "name": "Arcane Scald",
+        "file": "assets/skill-icons/beam-orange-3.png",
+        "sha256": "e361e9f5a23cc18648444da36c9d822e98fa7a901767947594553d20686c66de"
+      },
+      {
+        "recipe": "30110",
+        "name": "Meteor Shower",
+        "file": "assets/skill-icons/fireball-red-3.png",
+        "sha256": "cf3c0ad327dfa67110df4b8c9f1f1e38fd58217d7920abd5837c5c26e3388b40"
+      },
+      {
+        "recipe": "30101",
+        "name": "Runic Volcano",
+        "file": "assets/skill-icons/runes-orange-3.png",
+        "sha256": "c7c5084335ccf090ee4aad4ce19b8c823a5131f8ebbc86c97a662de9b08d1af9"
+      },
+      {
+        "recipe": "30011",
+        "name": "Phoenix Rush",
+        "file": "assets/skill-icons/haste-fire-1.png",
+        "sha256": "e57c23cef4e5f238a8be07e96d31478daaff16f15997f171f0bccc992b7d1cc9"
+      },
+      {
+        "recipe": "13100",
+        "name": "Thermal Spring",
+        "file": "assets/skill-icons/heal-jade-1.png",
+        "sha256": "86141ff524b3f745a63735bdc1af64d2a02a0a1fbe116910654e3fecf537e175"
+      },
+      {
+        "recipe": "13010",
+        "name": "Steam Veil",
+        "file": "assets/skill-icons/fog-water-air-1.png",
+        "sha256": "d08029e6275ad0ba62a375d8d284a9166c4de54e07faf109760ef168a2db3ac4"
+      },
+      {
+        "recipe": "13001",
+        "name": "Rejuvenating Flame",
+        "file": "assets/skill-icons/light-air-fire-2.png",
+        "sha256": "d75127d8e7ac4264847e2b275133930683031d37db30e6911f5027633b4465ce"
+      },
+      {
+        "recipe": "03110",
+        "name": "Tidal Landslide",
+        "file": "assets/skill-icons/rip-water-2.png",
+        "sha256": "87de627c19c61d5d95fe9d51dfc9fd5959a462dece02545876784a647bc91a3f"
+      },
+      {
+        "recipe": "03101",
+        "name": "Living Clay",
+        "file": "assets/skill-icons/wild-eerie-3.png",
+        "sha256": "bcd0618bd2562ca69169dd442e70aaba06705544704ab3c963ef8eb9a95ff463"
+      },
+      {
+        "recipe": "03011",
+        "name": "Mistwalk",
+        "file": "assets/skill-icons/link-blue-1.png",
+        "sha256": "83988743c94c6b3051fcf92022e74155a95c7f9158a49e94201f60999434ff45"
+      },
+      {
+        "recipe": "11300",
+        "name": "Obsidian Wall",
+        "file": "assets/skill-icons/rock-plain-1.png",
+        "sha256": "c30053d9e1817dc26fd0d6cdf4d30dd3d2e54e322a44903c84a8e03490a1e4ca"
+      },
+      {
+        "recipe": "10310",
+        "name": "Ash Storm",
+        "file": "assets/skill-icons/fog-orange-2.png",
+        "sha256": "331868b01e345a0ddf41c8085605354d4bf919ee6e2a0be9ae21dfd5286b16cc"
+      },
+      {
+        "recipe": "10301",
+        "name": "Molten Golem",
+        "file": "assets/skill-icons/wild-orange-2.png",
+        "sha256": "dc005538d1c28260e73e8ca6e8fd8ffc0226f3b878ad69f7a95f28f9a533e50f"
+      },
+      {
+        "recipe": "01310",
+        "name": "Erosion Wave",
+        "file": "assets/skill-icons/rip-jade-2.png",
+        "sha256": "a783e5e1687d5dbebd0942492789c5d993cd37c288d9e0873600c3b61bffeccd"
+      },
+      {
+        "recipe": "01301",
+        "name": "Crystal Growth",
+        "file": "assets/skill-icons/ice-jade-3.png",
+        "sha256": "06c38ccb1aed4e0134a1a7fb24567bf9d7a7e0ba84862dc599694204164434ac"
+      },
+      {
+        "recipe": "00311",
+        "name": "Floating Fortress",
+        "file": "assets/skill-icons/protect-sky-3.png",
+        "sha256": "7a1fb3c4955cfa0ab4d0abc39522b54fe63ba19e0d8426bfdaaf5ad90ab1a040"
+      },
+      {
+        "recipe": "11030",
+        "name": "Thundercloud",
+        "file": "assets/skill-icons/fog-air-1.png",
+        "sha256": "a168fad58637623de2a6d6c9e8d2066160180ee9d4c925a48bc7883da2337d50"
+      },
+      {
+        "recipe": "10130",
+        "name": "Ash Cyclone",
+        "file": "assets/skill-icons/wind-red-2.png",
+        "sha256": "9fd473d037d0de84822556202bec9113c216f2efc07394c98f5dafb7581ae019"
+      },
+      {
+        "recipe": "10031",
+        "name": "Blazing Blink",
+        "file": "assets/skill-icons/haste-fire-3.png",
+        "sha256": "5ce8cd212298f551a3851d9a34c47a767b57d37f892661702e476a85829d38b5"
+      },
+      {
+        "recipe": "01130",
+        "name": "Dust Monsoon",
+        "file": "assets/skill-icons/fog-water-air-3.png",
+        "sha256": "db8061d040c4392001ccb708efe0e334edec23e90361669a6535f55c27e3a16e"
+      },
+      {
+        "recipe": "01031",
+        "name": "Phantom Mist",
+        "file": "assets/skill-icons/fog-magenta-1.png",
+        "sha256": "b53c234790270a37e5267e5ef464f150b6413b9b1926233aec2bcc90f6d6a1da"
+      },
+      {
+        "recipe": "00131",
+        "name": "Gravity Tornado",
+        "file": "assets/skill-icons/wind-grasp-magenta-3.png",
+        "sha256": "cad90cdaf13867cc209fd580c0e74692def5439e95a179ab5cca60a3311b1cf6"
+      },
+      {
+        "recipe": "11003",
+        "name": "Elemental Conversion",
+        "file": "assets/skill-icons/runes-royal-1.png",
+        "sha256": "67a1c14cc3bff4d7a40a056d5dc1d4d429c047c474aa98e1c94f04a6b26eff13"
+      },
+      {
+        "recipe": "10103",
+        "name": "Arcane Meteor",
+        "file": "assets/skill-icons/fireball-eerie-2.png",
+        "sha256": "e1b274f4e3eb71c5ef87caef1de0fdf79e2f4adfdbe033fcbba1832f9b4df682"
+      },
+      {
+        "recipe": "10013",
+        "name": "Comet Dash",
+        "file": "assets/skill-icons/haste-royal-2.png",
+        "sha256": "9527ae84562b8eb7f7a3ce4df39722401c0cad5ed8f9db2ea4ce14beae0cf717"
+      },
+      {
+        "recipe": "01103",
+        "name": "Essence Flow",
+        "file": "assets/skill-icons/heal-royal-3.png",
+        "sha256": "6d6a65f9df6c3d3265525a3d12cba6e88995035b8b5d4819aab906a692ac20a9"
+      },
+      {
+        "recipe": "01013",
+        "name": "Phase Mist",
+        "file": "assets/skill-icons/link-eerie-2.png",
+        "sha256": "41205d9b43e8e12fab929a42fe2da9b40b96e714d9e1183c9cd652719728e4ce"
+      },
+      {
+        "recipe": "00113",
+        "name": "Levitation Field",
+        "file": "assets/skill-icons/runes-magenta-2.png",
+        "sha256": "ea541db3164a07dfdc783b4a55f4391b36f2e44ca75c0aa59aebb02c7767d27a"
+      },
+      {
+        "recipe": "22100",
+        "name": "Obsidian Burst",
+        "file": "assets/skill-icons/explosion-red-1.png",
+        "sha256": "414b00cbc6bdc1de9b7eeb8d4de566d92748ea4675cb964ee7630593e064deb4"
+      },
+      {
+        "recipe": "22010",
+        "name": "Steam Vortex",
+        "file": "assets/skill-icons/fire-arrows-2.png",
+        "sha256": "9a37450cd5720945f21770a2b96f5b8d7d4c86a06f22ed4c74a3d71c6867f2a2"
+      },
+      {
+        "recipe": "22001",
+        "name": "Arcane Boiler",
+        "file": "assets/skill-icons/explosion-royal-3.png",
+        "sha256": "e789afd6fb4d1bf8a31bcc7d82f9b62ad86832deced01898e5756b78513b0721"
+      },
+      {
+        "recipe": "21200",
+        "name": "Magma Shell",
+        "file": "assets/skill-icons/protect-red-3.png",
+        "sha256": "cdd488d1cf5904c7ca1201a6486966a3431f5969a6edb7a49a5131bba019077b"
+      },
+      {
+        "recipe": "20210",
+        "name": "Volcanic Cyclone",
+        "file": "assets/skill-icons/wind-red-1.png",
+        "sha256": "2807a4f27b5fc2586c290e5f8dab52464fac63601584a696b64498bc45ec3729"
+      },
+      {
+        "recipe": "20201",
+        "name": "Runic Meteor",
+        "file": "assets/skill-icons/rock-royal-2.png",
+        "sha256": "fa0a9c095d0a6dc2f56d99479e89f98315ad168e87ce8fd6c54517e9e13e04cf"
+      },
+      {
+        "recipe": "21020",
+        "name": "Burning Monsoon",
+        "file": "assets/skill-icons/fire-arrows-sky-3.png",
+        "sha256": "25d7a80beab9cdbc2f727af104e60dbb24d1f57ea93568e3ef2a1d19676a178f"
+      },
+      {
+        "recipe": "20120",
+        "name": "Cinderstorm",
+        "file": "assets/skill-icons/needles-fire-3.png",
+        "sha256": "c9307706352caa2e59c29b6f9af20b1df631fa15d051cfa16b2e710a12fd0a3e"
+      },
+      {
+        "recipe": "20021",
+        "name": "Phoenix Spiral",
+        "file": "assets/skill-icons/light-air-fire-3.png",
+        "sha256": "0b20deda239fcbc66122a47c352870917d41ac23dd59ba8df03918d0fe9b4fb3"
+      },
+      {
+        "recipe": "21002",
+        "name": "Mana Flame",
+        "file": "assets/skill-icons/runes-orange-1.png",
+        "sha256": "d64d83908f49ae9012c9468d6ba3cb3c0b4f7bed5d04b814df099d234dfe23f4"
+      },
+      {
+        "recipe": "20102",
+        "name": "Arcane Forge",
+        "file": "assets/skill-icons/wild-orange-1.png",
+        "sha256": "18c618cdb5708402b7a8132ea3b69baa35f475eb1b7bc13119e2361fadad96ad"
+      },
+      {
+        "recipe": "20012",
+        "name": "Flare Warp",
+        "file": "assets/skill-icons/haste-fire-2.png",
+        "sha256": "337c14388fefc9b1ff7692b36d583ab13a0b4cc2f651bc4bb11a48f0f1c62eb8"
+      },
+      {
+        "recipe": "12200",
+        "name": "Steam Quake",
+        "file": "assets/skill-icons/explosion-sky-3.png",
+        "sha256": "b564c7888116575f2119ba9affa5929261f1344869769a695af17779f9bc835b"
+      },
+      {
+        "recipe": "02210",
+        "name": "Mud Cyclone",
+        "file": "assets/skill-icons/wind-blue-3.png",
+        "sha256": "e7b9e141bd37b7331a0b1ce40aff9933ce9c72d81329d5eb6cf1dfd3650d32a9"
+      },
+      {
+        "recipe": "02201",
+        "name": "Crystal Spring",
+        "file": "assets/skill-icons/heal-sky-1.png",
+        "sha256": "6ab156e29a5b4ddd86a8f2448b621263ddea312d298f0b164ad924fe7598b5e5"
+      },
+      {
+        "recipe": "12020",
+        "name": "Scalding Hurricane",
+        "file": "assets/skill-icons/wind-blue-2.png",
+        "sha256": "0708fc358815b4ba9110874ac9980636a2fcae09cb841bf8c77a87aa6b735dc4"
+      },
+      {
+        "recipe": "02120",
+        "name": "Storm Surge",
+        "file": "assets/skill-icons/rip-sky-2.png",
+        "sha256": "5056eb0b85e7aa14f76923d177c3135d37a0ea6b34f3f84ef5b6465a6d2472c0"
+      },
+      {
+        "recipe": "02021",
+        "name": "Mana Monsoon",
+        "file": "assets/skill-icons/runes-blue-2.png",
+        "sha256": "cbf6879ead6f61f36e116a3450b5d969618cb92a3ad04a08504f21e3cccc35de"
+      },
+      {
+        "recipe": "12002",
+        "name": "Purifying Flame",
+        "file": "assets/skill-icons/light-air-fire-1.png",
+        "sha256": "ecca2a0274e30a2717a2faebb048aff0e68860a5cd00f0ffef72f3c36c9c1050"
+      },
+      {
+        "recipe": "02102",
+        "name": "Mystic Spring",
+        "file": "assets/skill-icons/heal-royal-1.png",
+        "sha256": "fb5224e24d720ace7f40728ce1733dff79de0fe7dc83754be93a9d37d4adafeb"
+      },
+      {
+        "recipe": "02012",
+        "name": "Astral Mist",
+        "file": "assets/skill-icons/heal-sky-3.png",
+        "sha256": "303ec3c25b358653e35adaafa8adfde3112d92a011ec708953ad153b2d505d5d"
+      },
+      {
+        "recipe": "10220",
+        "name": "Molten Sandstorm",
+        "file": "assets/skill-icons/vines-jade-1.png",
+        "sha256": "c9828b7197f428234ec373f9130e7a8a35ef03938e32509785289c2888bb8e43"
+      },
+      {
+        "recipe": "01220",
+        "name": "Erosion Storm",
+        "file": "assets/skill-icons/vines-jade-2.png",
+        "sha256": "f70892cacaf26218819eeeae167cc64a2a8eaee40e87653cd039a420b3857e6c"
+      },
+      {
+        "recipe": "00221",
+        "name": "Gravity Storm",
+        "file": "assets/skill-icons/wind-grasp-magenta-2.png",
+        "sha256": "823b0412b6538b8454f2617ac872e71aa49a9cfb8f40fd10ba885f4722003cc7"
+      },
+      {
+        "recipe": "10202",
+        "name": "Runic Eruption",
+        "file": "assets/skill-icons/rock-orange-3.png",
+        "sha256": "077cd531f2b59bb2c154c08714d37abfbc2960fa474a26a3fb88c9f9341db159"
+      },
+      {
+        "recipe": "01202",
+        "name": "Crystal Barrier",
+        "file": "assets/skill-icons/protect-jade-1.png",
+        "sha256": "acf9707c68d731843a249e492b81b66b183832f52bd3a3f5aa21da02968fdc20"
+      },
+      {
+        "recipe": "00212",
+        "name": "Floating Obelisk",
+        "file": "assets/skill-icons/runes-royal-3.png",
+        "sha256": "55acec32825d2e48d59b7da1b9e597f87a2bb4661e108ccadcddeaa58a3a6163"
+      },
+      {
+        "recipe": "10022",
+        "name": "Flare Blink",
+        "file": "assets/skill-icons/haste-sky-2.png",
+        "sha256": "6a87f30e986761db78639ab6aec642310058ccdf8de11359159121200b289f05"
+      },
+      {
+        "recipe": "01022",
+        "name": "Mist Portal",
+        "file": "assets/skill-icons/link-spirit-3.png",
+        "sha256": "8ba7e6d1cd8f7622c5da87a7ace29e9083b11f9ea70ddf7b2d52f63f4397e076"
+      },
+      {
+        "recipe": "00122",
+        "name": "Telekinetic Barrage",
+        "file": "assets/skill-icons/needles-royal-3.png",
+        "sha256": "d88dadb9d7ae89dc5df8a2ac520788b386856f8b64b762d369bf26d2028bf14a"
+      },
+      {
+        "recipe": "21110",
+        "name": "Elemental Inferno",
+        "file": "assets/skill-icons/explosion-magenta-3.png",
+        "sha256": "e2ac00b59434630c126e67a8e20febb4f8c4f21996e42da4798aa4b79046e3b1"
+      },
+      {
+        "recipe": "21101",
+        "name": "Arcane Volcano",
+        "file": "assets/skill-icons/runes-orange-2.png",
+        "sha256": "cd5de3f3e085a8ceff8da56096562bada2cc538c8fba147ba3676cf60bae6ecd"
+      },
+      {
+        "recipe": "21011",
+        "name": "Spectral Flame",
+        "file": "assets/skill-icons/beam-royal-3.png",
+        "sha256": "08e11d9cf043b1496321c11b092807bab3a51f5ee86eb746ebbdb9d0420dc608"
+      },
+      {
+        "recipe": "20111",
+        "name": "Starfall",
+        "file": "assets/skill-icons/fireball-sky-3.png",
+        "sha256": "b01c0b373c25543f19454d948f5191a26105ad3a650b65e486f2137c722df37b"
+      },
+      {
+        "recipe": "12110",
+        "name": "Elemental Flood",
+        "file": "assets/skill-icons/rip-acid-3.png",
+        "sha256": "072e83d2cb42b054ef3a9fc7cede45578ced2207822569ed026ffd3795cdd4b8"
+      },
+      {
+        "recipe": "12101",
+        "name": "Well of Renewal",
+        "file": "assets/skill-icons/heal-jade-2.png",
+        "sha256": "6dcee944c2a26ad937e9f8eda603722306c1e1eb9ed01a111dac3b5a2dccb997"
+      },
+      {
+        "recipe": "12011",
+        "name": "Spirit Mist",
+        "file": "assets/skill-icons/heal-royal-2.png",
+        "sha256": "2a80447997dd56c989e7ceda232cace4dd64ec20517bae9eb3e5b59b0a9880fa"
+      },
+      {
+        "recipe": "02111",
+        "name": "Tidal Nexus",
+        "file": "assets/skill-icons/runes-blue-3.png",
+        "sha256": "bce34609e2f65561deb25c998d74ce7b795dab68d28a831646cabdba40cec23c"
+      },
+      {
+        "recipe": "11210",
+        "name": "Elemental Fortress",
+        "file": "assets/skill-icons/protect-jade-3.png",
+        "sha256": "27b6bd545f5bc92902ec323017c33261afa9c4936baffb0b71bf4415a3dce348"
+      },
+      {
+        "recipe": "11201",
+        "name": "Runic Citadel",
+        "file": "assets/skill-icons/protect-magenta-3.png",
+        "sha256": "0fe0f09d5da372f99d29a342a26a367b6f45a30e896b4f9d0b9e8b39462fd468"
+      },
+      {
+        "recipe": "10211",
+        "name": "Astral Golem",
+        "file": "assets/skill-icons/wild-eerie-2.png",
+        "sha256": "a1ba931e505135425347edaa62a72a04752f1ecc06a27883df43cf540212129c"
+      },
+      {
+        "recipe": "01211",
+        "name": "Terra Nexus",
+        "file": "assets/skill-icons/heal-jade-3.png",
+        "sha256": "70d037884494a85658990ccf9e0efc0a1b01c7c571d646efa22e16b429177981"
+      },
+      {
+        "recipe": "11021",
+        "name": "Dimensional Storm",
+        "file": "assets/skill-icons/fog-air-2.png",
+        "sha256": "a4366c6ab79d6ef05d3b3f94ad03a16b4ab11e32a96c0dc9f469b7d0ba9847ac"
+      },
+      {
+        "recipe": "10121",
+        "name": "Comet Cyclone",
+        "file": "assets/skill-icons/wind-grasp-eerie-3.png",
+        "sha256": "9bfed78e6494bbb49a3e49b34649599b4a770a2663f569e21daa4ea66dbbc8eb"
+      },
+      {
+        "recipe": "01121",
+        "name": "Sky Nexus",
+        "file": "assets/skill-icons/light-sky-3.png",
+        "sha256": "ba0927dc76d8b8cb49e5b050b686abc7bec9d063e9d0d80decd615435c51c8de"
+      },
+      {
+        "recipe": "11120",
+        "name": "Elemental Tempest",
+        "file": "assets/skill-icons/air-burst-air-3.png",
+        "sha256": "492f7cc8a962174d963036a2e3f323b6efab4b8b5c08ca01d3fb5a0d0f51beb0"
+      },
+      {
+        "recipe": "11012",
+        "name": "Astral Surge",
+        "file": "assets/skill-icons/rip-magenta-3.png",
+        "sha256": "0adc39fa7c057a19d45a6923ee999bf20d92c93b2af0639226b08ac550e68a47"
+      },
+      {
+        "recipe": "10112",
+        "name": "Telekinetic Meteor",
+        "file": "assets/skill-icons/rock-royal-3.png",
+        "sha256": "ecd4f4439017c2f3b76af27e813f092487c8fa9f82f1ed8784f2edf0af354357"
+      },
+      {
+        "recipe": "01112",
+        "name": "Arcane Nexus",
+        "file": "assets/skill-icons/light-magenta-3.png",
+        "sha256": "e6556194f34ed9d875b49c1e252c31b349339fb0f26c517280dab1f94ea19689"
+      },
+      {
+        "recipe": "11102",
+        "name": "Transmutation",
+        "file": "assets/skill-icons/protect-eerie-3.png",
+        "sha256": "b7ac0b01f0a676e4de5f9c230b7890659b749cce4ec777b0588ffcbe77c8a27e"
+      },
+      {
+        "recipe": "11111",
+        "name": "Primordial",
+        "file": "assets/skill-icons/runes-royal-2.png",
+        "sha256": "c302b966ced6e040fe9551d43c26232996fe247d5bbd10a465d86be16f30e0ba"
+      }
+    ]
+  }
+}

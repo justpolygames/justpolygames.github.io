@@ -1,0 +1,17 @@
+Low Poly Mage Rigged Free
+Creator: MadTrollStudio
+Source: https://sketchfab.com/3d-models/low-poly-mage-rigged-free-10771a1d02a145df95824b483515eeb6
+Creator: https://sketchfab.com/madtrollstudio
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Original archive supplied by the user on 2026-09-28 through Sketchfab's original-format download.
+Included READ ME: "you are not allowed to put my character and sell it separately
+or in an asset bundle use it wherever else you want as long as you credit me"
+
+QUINTARC adaptations: source Main_Mesh exported to GLB; unused staff, rig control
+shapes/UI scripts, and backup files excluded; deform bones reparented into an
+anatomical hierarchy; object scale applied; animation rest deltas retargeted from
+the retained licensed KayKit rig at runtime; runtime clothing/skin colors and
+bounded fit/hat variations. No new character geometry or generated textures.
+Original facial geometry, topology, skin weights and material regions retained.

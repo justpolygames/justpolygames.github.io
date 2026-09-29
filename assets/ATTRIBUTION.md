@@ -9,3 +9,5 @@ JP icon: supplied Just Poly Games branding, reused unchanged from `just-poly-ico
 Controller illustration: original CSS geometry for this portfolio.
 
 Visual inspiration: GitMastery, https://gitmastery.me/. No GitMastery artwork or source code is redistributed.
+
+QUINTARC skill icons: Painterly Spell Icons, parts 1–4 by J. W. Bjerk (eleazzaar). Original PNGs copied unchanged. CC BY 3.0. See `skill-icons/LICENSE.txt` for license and source URLs.

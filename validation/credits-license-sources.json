@@ -1,0 +1,329 @@
+{
+  "notices": [
+    {
+      "game": "project-pencil",
+      "source": "addons/gd-eos/LICENSE",
+      "copy": "assets/licenses/project-pencil/addons/gd-eos/LICENSE",
+      "sha256": "edeeb6c6ab479c185d64beddc0515d21e1f606994367fb5f2259b2f5b6bf950a"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/dungeon/License.txt",
+      "copy": "assets/licenses/project-pencil/assets/dungeon/License.txt",
+      "sha256": "41a49bdd304040502cabcedf73f27a1beeecc548c86f71822f288600d39d2601"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/environment/archive/LICENSE.txt",
+      "copy": "assets/licenses/project-pencil/assets/environment/archive/LICENSE.txt",
+      "sha256": "cd675f2adc31eb5fedaedc1072d8ddc27b917f523682f0561837c03dc56393cb"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/environment/dungeon/LICENSE.txt",
+      "copy": "assets/licenses/project-pencil/assets/environment/dungeon/LICENSE.txt",
+      "sha256": "c5f17abf619731f57f6bbff450f6484214605c13aa96bb75bbcfc70930941ff7"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/environment/factory/LICENSE.txt",
+      "copy": "assets/licenses/project-pencil/assets/environment/factory/LICENSE.txt",
+      "sha256": "61e86565dd297e143ad631594980eda0a17fc81a4cd7c6d71acf2f5e0cad30b6"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/environment/factory/License.txt",
+      "copy": "assets/licenses/project-pencil/assets/environment/factory/License.txt",
+      "sha256": "61e86565dd297e143ad631594980eda0a17fc81a4cd7c6d71acf2f5e0cad30b6"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/environment/forest/LICENSE.txt",
+      "copy": "assets/licenses/project-pencil/assets/environment/forest/LICENSE.txt",
+      "sha256": "987811fa42c7548ad487324531813b0210ee6d1ebd410089e881820630e3be54"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/environment/space/License.txt",
+      "copy": "assets/licenses/project-pencil/assets/environment/space/License.txt",
+      "sha256": "bd4e050e69d41351282c4d53f943cd4d80a80b968593e60653ba5292637941b7"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/Godot-Logo-CC-BY-4.0.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/Godot-Logo-CC-BY-4.0.txt",
+      "sha256": "af5b255ee48b07a366018ffa74d096502dcbfdf4624ce39f43356799ade05077"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/Inter-OFL.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/Inter-OFL.txt",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/KayKit-Adventurers-CC0.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/KayKit-Adventurers-CC0.txt",
+      "sha256": "50e3fb7858f1351436923f0fd4bb4ea9198db1248bb2325b46a66af94aac517e"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/Kenney-RPG-Audio.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/Kenney-RPG-Audio.txt",
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/Kenney-Sci-Fi-Sounds.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/Kenney-Sci-Fi-Sounds.txt",
+      "sha256": "a9767b25c3533f69d03af136480efad08efba19a9f0d89616992b34c79fd6186"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/PatrickHand-OFL.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/PatrickHand-OFL.txt",
+      "sha256": "377f4f9c19e935228552478eb68cc2ed82910988a60ba60e2ac73b09f32d02d1"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/Quaternius-Modular-CC0.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/Quaternius-Modular-CC0.txt",
+      "sha256": "93a19344d02398d937e22a922c97967c42ea61cfd7e8a0454d0589735720f828"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/characters-CC0.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/characters-CC0.txt",
+      "sha256": "d9d70414d1f5299aa934e6c46f097f9aad8d8a0a949add9f01a5bb350e0c49fb"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/furniture-CC0.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/furniture-CC0.txt",
+      "sha256": "24c6ef8589a1839dcc320a8c36af6b096e5228e69e71c7b41005c9d326bba330"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/pencil-writing.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/pencil-writing.txt",
+      "sha256": "595706a4de4b43a45d3534feac6febcb8ff951e8dbd3956a1eaf45d6a38c8abc"
+    },
+    {
+      "game": "project-pencil",
+      "source": "assets/licenses/sounds-CC0.txt",
+      "copy": "assets/licenses/project-pencil/assets/licenses/sounds-CC0.txt",
+      "sha256": "94283f9120e58e6a1cae5762053df42ee280d37fe34be22589c92b7dbc7b2d39"
+    },
+    {
+      "game": "quintarc",
+      "source": "addons/gd-eos/LICENSE",
+      "copy": "assets/licenses/quintarc/addons/gd-eos/LICENSE",
+      "sha256": "edeeb6c6ab479c185d64beddc0515d21e1f606994367fb5f2259b2f5b6bf950a"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/dungeon/License.txt",
+      "copy": "assets/licenses/quintarc/assets/dungeon/License.txt",
+      "sha256": "41a49bdd304040502cabcedf73f27a1beeecc548c86f71822f288600d39d2601"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/environment/archive/LICENSE.txt",
+      "copy": "assets/licenses/quintarc/assets/environment/archive/LICENSE.txt",
+      "sha256": "cd675f2adc31eb5fedaedc1072d8ddc27b917f523682f0561837c03dc56393cb"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/environment/dungeon/LICENSE.txt",
+      "copy": "assets/licenses/quintarc/assets/environment/dungeon/LICENSE.txt",
+      "sha256": "c5f17abf619731f57f6bbff450f6484214605c13aa96bb75bbcfc70930941ff7"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/environment/factory/LICENSE.txt",
+      "copy": "assets/licenses/quintarc/assets/environment/factory/LICENSE.txt",
+      "sha256": "61e86565dd297e143ad631594980eda0a17fc81a4cd7c6d71acf2f5e0cad30b6"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/environment/factory/License.txt",
+      "copy": "assets/licenses/quintarc/assets/environment/factory/License.txt",
+      "sha256": "61e86565dd297e143ad631594980eda0a17fc81a4cd7c6d71acf2f5e0cad30b6"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/environment/forest/LICENSE.txt",
+      "copy": "assets/licenses/quintarc/assets/environment/forest/LICENSE.txt",
+      "sha256": "987811fa42c7548ad487324531813b0210ee6d1ebd410089e881820630e3be54"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/environment/space/License.txt",
+      "copy": "assets/licenses/quintarc/assets/environment/space/License.txt",
+      "sha256": "bd4e050e69d41351282c4d53f943cd4d80a80b968593e60653ba5292637941b7"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/Godot-Logo-CC-BY-4.0.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/Godot-Logo-CC-BY-4.0.txt",
+      "sha256": "af5b255ee48b07a366018ffa74d096502dcbfdf4624ce39f43356799ade05077"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/Inter-OFL.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/Inter-OFL.txt",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/KayKit-Adventurers-CC0.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/KayKit-Adventurers-CC0.txt",
+      "sha256": "50e3fb7858f1351436923f0fd4bb4ea9198db1248bb2325b46a66af94aac517e"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/Kenney-Particles-CC0.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/Kenney-Particles-CC0.txt",
+      "sha256": "9ce93ec81cfade0c2f3c54bc4b635ad6cd9f1e522b717228d19591584c8778d0"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/Kenney-RPG-Audio.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/Kenney-RPG-Audio.txt",
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/Kenney-Sci-Fi-Sounds.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/Kenney-Sci-Fi-Sounds.txt",
+      "sha256": "a9767b25c3533f69d03af136480efad08efba19a9f0d89616992b34c79fd6186"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/PatrickHand-OFL.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/PatrickHand-OFL.txt",
+      "sha256": "377f4f9c19e935228552478eb68cc2ed82910988a60ba60e2ac73b09f32d02d1"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Audio.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Audio.txt",
+      "sha256": "9d1843f777c0b6e33eab72bdf43025665f3cb300fd01b7670eba7ae529ceea10"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Binbun.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Binbun.txt",
+      "sha256": "390832e511f25321216cb7af52436829a9cce63d02a3ebdfd2da6e994fd33958"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Cinzel-OFL.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Cinzel-OFL.txt",
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Mage.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Mage.txt",
+      "sha256": "ba4f5e52ab823d238c2a10b97847f69ef7157275ebfc8a8c0a676c9ccdbebf91"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Monsters.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Monsters.txt",
+      "sha256": "2b04fed13cc05aa0ae58f42cc8fd194121204e3151ee8abb8d35049a9b1c1d93"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Nature.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Nature.txt",
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Painterly-Icons.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Painterly-Icons.txt",
+      "sha256": "b3e9308ffa145b4c081a98673b3591f445780e7878899b2aa57b36dfe3ad3222"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Rock-Golem.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Rock-Golem.txt",
+      "sha256": "193ebee6999d61130510c9ab330d89e6606086d6456b9a3827856b4e42a7834d"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Ruins.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Ruins.txt",
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Sage.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Sage.txt",
+      "sha256": "02f8c931c50838cf6863667f2579a259458d4279195f58673020c78cbc515678"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Skeletons.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Skeletons.txt",
+      "sha256": "5d822abca4e08c5a91d329e5372b3dc605cba8d994f752cb0f7dfdb7a0a79954"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Symbols.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Symbols.txt",
+      "sha256": "e4d3e923a48daf795ba19c8c0d0bdb1d224bb3404b7ba0501a4c5ee7109bbe34"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/Quaternius-Modular-CC0.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/Quaternius-Modular-CC0.txt",
+      "sha256": "93a19344d02398d937e22a922c97967c42ea61cfd7e8a0454d0589735720f828"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/characters-CC0.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/characters-CC0.txt",
+      "sha256": "d9d70414d1f5299aa934e6c46f097f9aad8d8a0a949add9f01a5bb350e0c49fb"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/furniture-CC0.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/furniture-CC0.txt",
+      "sha256": "24c6ef8589a1839dcc320a8c36af6b096e5228e69e71c7b41005c9d326bba330"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/pencil-writing.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/pencil-writing.txt",
+      "sha256": "595706a4de4b43a45d3534feac6febcb8ff951e8dbd3956a1eaf45d6a38c8abc"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/sounds-CC0.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/sounds-CC0.txt",
+      "sha256": "94283f9120e58e6a1cae5762053df42ee280d37fe34be22589c92b7dbc7b2d39"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/quintarc/orb-effects/license.txt",
+      "copy": "assets/licenses/quintarc/assets/quintarc/orb-effects/license.txt",
+      "sha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/quintarc/sage/License.txt",
+      "copy": "assets/licenses/quintarc/assets/quintarc/sage/License.txt",
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/quintarc/symbols/license.txt",
+      "copy": "assets/licenses/quintarc/assets/quintarc/symbols/license.txt",
+      "sha256": "da9ce309ed6f057363eacbba6f5039690495fe4dd17f1efa72597a95661e05fe"
+    }
+  ],
+  "total": 54
+}

@@ -19,3 +19,14 @@ h1,h2,h3{font-family:"Arial Black",Arial,Helvetica,sans-serif;font-weight:900}
 .footer .brand-wordmark>span:last-child{font-size:9px}
 @media(max-width:520px){.brand img{width:40px;height:40px}.brand-wordmark>span:first-child{font-size:18px}.brand-wordmark>span:last-child{font-size:9px;letter-spacing:.6px;margin-top:4px}.header-inner{gap:8px}.header-inner nav{gap:12px}.header-inner nav>a{font-size:11px}.header-inner .nav-external{padding:5px 7px}}
 @media(max-width:360px){.header-inner nav{gap:9px}.brand img{width:34px;height:34px}.brand-wordmark>span:first-child{font-size:16px}.brand-wordmark>span:last-child{font-size:8px}.header-inner .nav-external{padding:4px 6px}}
+
+/* Game guide catalogs */
+.spell-heading{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.spell-heading img{flex:0 0 56px;width:56px;height:56px;object-fit:contain;border:1px solid #536a99;border-radius:7px;background:#0b1020}
+.spell-heading h3{margin:0;line-height:1.3}
+.item-card h4{font-size:16px;color:#dacdf3;margin:0 0 10px}
+.mob-card .eyebrow{font-size:9px;letter-spacing:1px;color:#54d4ff;margin-bottom:12px}
+.boss-list{padding-left:22px;font-size:14px}
+.boss-list li{margin-bottom:10px}
+
+.credits-intro{max-width:800px;padding-block:42px 20px}.credits-intro p:not(.eyebrow){color:var(--muted)}.credits-nav{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:45px}.credits-nav a{border:1px solid var(--line);padding:7px 12px;border-radius:5px;font-size:12px}.license-list{padding-left:22px;font-size:13px;overflow-wrap:anywhere}.license-list li{margin-block:9px}

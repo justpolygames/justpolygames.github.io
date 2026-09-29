@@ -1,0 +1,1 @@
+Platform logos from Simple Icons (CC0), retrieved 2026-09-29 from https://github.com/simple-icons/simple-icons/tree/develop/icons. itch.io, Steam and Epic Games marks belong to their respective owners. These buttons identify store destinations and do not imply affiliation.

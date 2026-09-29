@@ -39,7 +39,7 @@ The existing Project Pencil cover and QUINTARC seal are reused from the owner’
 
 ## Studio branding
 
-The header and footer use `just-poly-games.png`: the full JP / divider / JUST / POLY GAMES lockup, with muted colors adapted from the supplied artwork. The favicon retains the supplied `just-poly-icon.png`. Shared site accents use softer cyan and violet.
+The header and footer use `just-poly-games.png`: the full JP / divider / JUST / POLY GAMES lockup, with the original bright colors, copied unchanged from the supplied artwork. The favicon retains the supplied `just-poly-icon.png`. Shared site accents use softer cyan and violet.
 
 ## Search and social metadata
 

@@ -1,0 +1,323 @@
+{
+  "renderer": "Godot Compatibility; main DP-2; isolated source copies",
+  "item_count": 31,
+  "base_mob_count": 14,
+  "hole": "Actual recipe strokes; no standalone item mesh",
+  "images": [
+    {
+      "height": 512,
+      "meshes": 4,
+      "path": "assets/item-images/pencil.png",
+      "width": 512,
+      "sha256": "ca226b7956ba3a42756468ced77c9ae7b9afa265bfe196c2b30d05aaf8405390"
+    },
+    {
+      "height": 512,
+      "meshes": 5,
+      "path": "assets/item-images/knife.png",
+      "width": 512,
+      "sha256": "ec8be3f9c7b1fb41f7400137e776fe0372dd743de779aa6a45ccd9fb5b58d1ab"
+    },
+    {
+      "height": 512,
+      "meshes": 1,
+      "path": "assets/item-images/karambit.png",
+      "width": 512,
+      "sha256": "a0e3154b3ce4f3e6c5812195d308cd2f11ce3c220b5d34972f0b107564c4a471"
+    },
+    {
+      "height": 512,
+      "meshes": 5,
+      "path": "assets/item-images/dagger.png",
+      "width": 512,
+      "sha256": "308bab2368f8d18c96f410f93e60954b92fd9c39fd6a2f1318187aead73af9f7"
+    },
+    {
+      "height": 512,
+      "meshes": 5,
+      "path": "assets/item-images/sword.png",
+      "width": 512,
+      "sha256": "2823ad1b6ee7e637923ab659758a14f97516afcae231b2c2f16502f45d951b5c"
+    },
+    {
+      "height": 512,
+      "meshes": 2,
+      "path": "assets/item-images/axe.png",
+      "width": 512,
+      "sha256": "2debb2061ab215c9f2bc608e8670a56f21b6b2e45b7f8e7c2534a0b597f0e31f"
+    },
+    {
+      "height": 512,
+      "meshes": 2,
+      "path": "assets/item-images/sickle.png",
+      "width": 512,
+      "sha256": "2b68db316a42efab9d3ab0b26a19878092d93e69c24dbd134724d88ce740ef86"
+    },
+    {
+      "height": 512,
+      "meshes": 1,
+      "path": "assets/item-images/shuriken.png",
+      "width": 512,
+      "sha256": "3793ca2b30dae9858f3052eb1f5664b8a2a90109d2d4dec7a497d3665e7e85c4"
+    },
+    {
+      "height": 512,
+      "meshes": 7,
+      "path": "assets/item-images/nunchuck.png",
+      "width": 512,
+      "sha256": "4b6e69889ade2af14170b7af58c29bf3a256dde5516ccedc19c62418fee58b6b"
+    },
+    {
+      "height": 512,
+      "meshes": 4,
+      "path": "assets/item-images/hammer.png",
+      "width": 512,
+      "sha256": "614b2a34da757e6dd01bd9eaf79405f6ef90cc9ad7a6f8f22289c603998c79c9"
+    },
+    {
+      "height": 512,
+      "meshes": 7,
+      "path": "assets/item-images/club.png",
+      "width": 512,
+      "sha256": "5979c79de46a800de6a9a2702528dbea6eca011c760175f741e910b36c79270f"
+    },
+    {
+      "height": 512,
+      "meshes": 18,
+      "path": "assets/item-images/thorn_club.png",
+      "width": 512,
+      "sha256": "434ebaac26aa51b5d5df129ae1364cfa670dab9339fecec844183a9c67f0b2b3"
+    },
+    {
+      "height": 512,
+      "meshes": 5,
+      "path": "assets/item-images/bat.png",
+      "width": 512,
+      "sha256": "38b313c60e95df3092f5221f53bfd676a80a25b89e7191f7699cb4f64db5ad75"
+    },
+    {
+      "height": 512,
+      "meshes": 8,
+      "path": "assets/item-images/slingshot.png",
+      "width": 512,
+      "sha256": "df29eb15b766b330b90a2dc4e370cfd134c0eae90cf1fa8db6006bd822b73a9e"
+    },
+    {
+      "height": 512,
+      "meshes": 1,
+      "path": "assets/item-images/pebbles.png",
+      "width": 512,
+      "sha256": "cd25df49d4f641af7a2e0315adf08fa5eda1dee3dc01f32fac4176b6d6d69332"
+    },
+    {
+      "height": 512,
+      "meshes": 11,
+      "path": "assets/item-images/bow.png",
+      "width": 512,
+      "sha256": "273491a463a81abb0efb182596bb7b8eba8dc1f28cc43c46fa3ab480c2bf40bc"
+    },
+    {
+      "height": 512,
+      "meshes": 4,
+      "path": "assets/item-images/arrows.png",
+      "width": 512,
+      "sha256": "b8900955952d805056f649b81aadd4cbc32084419bc4d8e394a4a92d7983b2cd"
+    },
+    {
+      "height": 512,
+      "meshes": 4,
+      "path": "assets/item-images/bomb.png",
+      "width": 512,
+      "sha256": "69e3b1e00c73fdea558390109e6c82b85a62984b180d938df9c5ee1a9486ecfc"
+    },
+    {
+      "height": 512,
+      "meshes": 4,
+      "path": "assets/item-images/bowling_ball.png",
+      "width": 512,
+      "sha256": "05e6bd9cc9580bbfa00fa11c786f94795fab7a747d1ae1c28ca51b87d9e24e47"
+    },
+    {
+      "height": 512,
+      "meshes": 6,
+      "path": "assets/item-images/helm.png",
+      "width": 512,
+      "sha256": "8e4d293aa0b3fd99b70a5002c5e6d3b547a74421665975db5a7e03b964502eb9"
+    },
+    {
+      "height": 512,
+      "meshes": 9,
+      "path": "assets/item-images/shield.png",
+      "width": 512,
+      "sha256": "dcd39fa4143a4165a043029f60b8e1ba8e365ed02a2d683a766e354c44cadf71"
+    },
+    {
+      "height": 512,
+      "meshes": 6,
+      "path": "assets/item-images/plate.png",
+      "width": 512,
+      "sha256": "0e197afe6f25e9e83126f816164d437c755361829331e68550b79c22b69e0594"
+    },
+    {
+      "height": 512,
+      "meshes": 2,
+      "path": "assets/item-images/boots.png",
+      "width": 512,
+      "sha256": "5b30227ba89ef9ba254b5558c82806bc78c84dc33c6e50a420401181dcafa146"
+    },
+    {
+      "height": 512,
+      "meshes": 12,
+      "path": "assets/item-images/spring_boots.png",
+      "width": 512,
+      "sha256": "cdd1783b2125a8eb5c52eb344face78f242f274c3f7b492f833c2ffa73e6989d"
+    },
+    {
+      "height": 512,
+      "meshes": 5,
+      "path": "assets/item-images/pouch.png",
+      "width": 512,
+      "sha256": "fde84622c7f65a2648e1cbc1d5c2918ed9e5cded7d3224eb53fcbe4dd9689a2d"
+    },
+    {
+      "height": 512,
+      "meshes": 5,
+      "path": "assets/item-images/quiver.png",
+      "width": 512,
+      "sha256": "6550114d498bf0b944e49c6104a00c214e18479b8781551c1ff7524400fc5e41"
+    },
+    {
+      "height": 512,
+      "meshes": 7,
+      "path": "assets/item-images/box.png",
+      "width": 512,
+      "sha256": "b24eff17d2cce2970db84d2078d73bc5f06967b659a0cc5a7bf08a37b19bebe4"
+    },
+    {
+      "height": 512,
+      "meshes": 10,
+      "path": "assets/item-images/portal.png",
+      "width": 512,
+      "sha256": "5429d4b8b554e1ff9daf1211090a2ca41aa0dfcee3845878d81941239445c364"
+    },
+    {
+      "height": 512,
+      "meshes": 34,
+      "path": "assets/item-images/hole.png",
+      "width": 512,
+      "sha256": "4d93ab3ca6c82dead29fab16a9657c264bd8308190cf5edbccafc39ac5055b9a"
+    },
+    {
+      "height": 512,
+      "meshes": 3,
+      "path": "assets/item-images/secret_bomb.png",
+      "width": 512,
+      "sha256": "db61b10b85f794b170a8450016365d732abcc37ffc5dd386270d9949f5b3fc22"
+    },
+    {
+      "height": 512,
+      "meshes": 13,
+      "path": "assets/item-images/claw_trap.png",
+      "width": 512,
+      "sha256": "4e232350e2fa8b0645f37e3878944f85a6c9a72621369ce632258b35cdd35f50"
+    },
+    {
+      "height": 512,
+      "meshes": 11,
+      "path": "assets/mob-images/project-pencil-wraith.png",
+      "width": 512,
+      "sha256": "44ed2e87968527378c711d8ccd6df534cd21ba074baea38ff5626eddf670a34f"
+    },
+    {
+      "height": 512,
+      "meshes": 28,
+      "path": "assets/mob-images/project-pencil-skitter.png",
+      "width": 512,
+      "sha256": "61edd5ad23d933a43bd9d46aa344b27feb377b4fd7faf6c906cde683d100b91d"
+    },
+    {
+      "height": 512,
+      "meshes": 14,
+      "path": "assets/mob-images/project-pencil-spitter.png",
+      "width": 512,
+      "sha256": "15c05f442b237fe735bb8ca6ccd3ffbfcdb92a419cb59b6b9f4922733046dd3b"
+    },
+    {
+      "height": 512,
+      "meshes": 16,
+      "path": "assets/mob-images/project-pencil-brute.png",
+      "width": 512,
+      "sha256": "524830e690a3d63de7e88c2b48aff70173323f4275f45013f77fb79c98e21558"
+    },
+    {
+      "height": 512,
+      "meshes": 13,
+      "path": "assets/mob-images/project-pencil-sentinel.png",
+      "width": 512,
+      "sha256": "8066b46296c16929cf8f3ef03a095778c51f0a9ddd5e795d683f70d31a47c309"
+    },
+    {
+      "height": 512,
+      "meshes": 14,
+      "path": "assets/mob-images/project-pencil-thorn.png",
+      "width": 512,
+      "sha256": "5b44dc78508ecd4008c269a098cd0ff2b01d09c9487151f5e12f5d47c7725483"
+    },
+    {
+      "height": 512,
+      "meshes": 20,
+      "path": "assets/mob-images/project-pencil-eraser.png",
+      "width": 512,
+      "sha256": "78bdc3996d4ee9b61aafcef01e3e2ca5e5236caa4f6d3c0baa8040f4a624d346"
+    },
+    {
+      "height": 512,
+      "meshes": 9,
+      "path": "assets/mob-images/quintarc-wraith.png",
+      "width": 512,
+      "sha256": "177c912e2a85bbe2861f5c41bbaed3224efd9ea9a72498bad6ee02fec855a047"
+    },
+    {
+      "height": 512,
+      "meshes": 2,
+      "path": "assets/mob-images/quintarc-skitter.png",
+      "width": 512,
+      "sha256": "70b3b034bf8f0e97b6bcc43628add68bb9d9fc7cca7614ab536d59450a2a1b3f"
+    },
+    {
+      "height": 512,
+      "meshes": 1,
+      "path": "assets/mob-images/quintarc-spitter.png",
+      "width": 512,
+      "sha256": "fe27a2ecd2a86cd365fd84805d0dd501d3c5621e8bc2335058bcb004733ea430"
+    },
+    {
+      "height": 512,
+      "meshes": 11,
+      "path": "assets/mob-images/quintarc-brute.png",
+      "width": 512,
+      "sha256": "b57862f38bb39d35ce750b60a95353d5355d3904fb7825ffd593ba8b0c13c4ae"
+    },
+    {
+      "height": 512,
+      "meshes": 11,
+      "path": "assets/mob-images/quintarc-sentinel.png",
+      "width": 512,
+      "sha256": "f5e1379808048eb86e01e330d0e721dc612a8ae1c7d7387557a1665ef17db311"
+    },
+    {
+      "height": 512,
+      "meshes": 10,
+      "path": "assets/mob-images/quintarc-thorn.png",
+      "width": 512,
+      "sha256": "b37ad222524b4b5b4913afcd5bc095b2318d1943df797ee1f00bde1f3961084f"
+    },
+    {
+      "height": 512,
+      "meshes": 2,
+      "path": "assets/mob-images/quintarc-eraser.png",
+      "width": 512,
+      "sha256": "2af56307ffdc1eeb6105345a0cf1043dccc045a1d338a6e18fe1c1ea950040af"
+    }
+  ]
+}

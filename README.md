@@ -39,7 +39,7 @@ The existing Project Pencil cover and QUINTARC seal are reused from the owner’
 
 ## Studio branding
 
-The header, footer, and PNG favicon reuse the supplied `just-poly-icon.png` unchanged. Bold stacked lettering and the shared cyan, blue, and violet colors align the site with the Just Poly Games brand.
+The header and footer use `just-poly-games.png`: the full JP / divider / JUST / POLY GAMES lockup, with muted colors adapted from the supplied artwork. The favicon retains the supplied `just-poly-icon.png`. Shared site accents use softer cyan and violet.
 
 ## Search and social metadata
 
@@ -54,3 +54,5 @@ References: [Google structured data guidance](https://developers.google.com/sear
 ## Game reference content
 
 Project Pencil includes all 30 drawing recipes plus the permanent Pencil, seven base mobs, and its named guardians. QUINTARC includes seven base mobs, its five campaign guardians, and all 126 matching skill icons. `validation/guide-content-sources.json` records source paths, names, and copied icon hashes. Icon attribution is on the Credits page and in `assets/skill-icons/LICENSE.txt`.
+
+Item and mob portraits are 512px Godot captures from isolated copies of the source geometry and licensed models, with Hole rendered from its actual recipe strokes. Original game projects were not edited.

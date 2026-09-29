@@ -14,3 +14,8 @@ QUINTARC skill icons: Painterly Spell Icons, parts 1–4 by J. W. Bjerk (eleazza
 
 Full wordmark: original supplied Just Poly Games logo, copied unchanged with its bright colors.
 Item and mob portraits: Godot renders of the existing Project Pencil artwork and QUINTARC KayKit/Quaternius models, under the game credits and licenses provided.
+
+## Leviathan Surge water-wave icon
+
+Big wave by Lorc, https://game-icons.net/1x1/lorc/big-wave.html, CC BY 3.0.
+Recolored cyan/white and rasterized. See licenses/QUINTARC-Wave-Icon.txt.

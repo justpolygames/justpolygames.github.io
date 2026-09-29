@@ -1,0 +1,30 @@
+"""Sync QUINTARC's player guide from a verified local game source tree."""
+import argparse,hashlib,html,json,re,shutil
+from pathlib import Path
+p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);a=p.parse_args()
+site=Path(__file__).resolve().parents[1];root=a.source.resolve()
+data=json.loads((root/'data/spell_recipes.json').read_text())
+icons=json.loads((root/'data/spell_icons.json').read_text())
+descriptions=json.loads((root/'data/spell_descriptions.json').read_text())
+assert len(data['recipes'])==len(icons)==len(descriptions)==126
+cards=[]
+for key,r in data['recipes'].items():
+ runtime=data['profiles'][r['profile']]|r['overrides']
+ recipe=' + '.join(f'{int(n)} {e}' for n,e in zip(key,data['element_order']) if n!='0')
+ keys=' '.join(str(i+1) for i,n in enumerate(key) for _ in range(int(n)))
+ icon=root/icons[key].removeprefix('res://');shutil.copy2(icon,site/'assets/skill-icons'/icon.name)
+ description=descriptions[key];name=r['name'];search=html.escape(f'{name} {recipe} {description}'.lower(),quote=True)
+ cards.append(f'<article class="spell-card" data-search="{search}"><div class="spell-heading"><img src="../assets/skill-icons/{icon.name}" width="56" height="56" loading="lazy" decoding="async" alt=""><h3>{html.escape(name)}</h3></div><p class="recipe">{html.escape(recipe)}</p><p>{html.escape(description)}</p><div class="spell-stats"><span>Mana / cooldown: {runtime["cost"]:g} / {runtime["cooldown"]:g}s</span><span>Keys: <kbd>{keys}</kbd> → <kbd>Q</kbd></span></div></article>')
+page=site/'games/quintarc.html';text=page.read_text()
+text,n=re.subn(r'<div class="spell-list">.*?</div></section>','<div class="spell-list">'+''.join(cards)+'</div></section>',text,flags=re.S);assert n==1
+shutil.copy2(root/'assets/quintarc-app.png',site/'assets/quintarc-app.png')
+version=hashlib.sha256((site/'assets/quintarc-app.png').read_bytes()).hexdigest()[:12]
+text=re.sub(r'<link rel="icon"[^>]*>',f'<link rel="icon" href="../assets/quintarc-app.png?v={version}" type="image/png">',text)
+blurb='<p class="spell-roles">Freeze and slow enemies with Frost Lance, Flash Freeze, and Blizzard. Use Chain Lightning to arc between visible enemies, Static Javelin to interrupt a caster, or Thundercloud to control an area with electrical shocks. Other combinations provide roots, silence, protective recovery, and movement tools—choose the role that fits your fight.</p>'
+text=re.sub(r'<p class="spell-roles">.*?</p>','',text)
+needle='<section class="wiki-section" id="overview">';start=text.index(needle);end=text.index('</section>',start);text=text[:end]+blurb+text[end:]
+page.write_text(text)
+shutil.copy2(root/'assets/licenses/QUINTARC-Wave-Icon.txt',site/'assets/licenses/QUINTARC-Wave-Icon.txt')
+attrs=site/'assets/ATTRIBUTION.md';note='\n## Leviathan Surge water-wave icon\n\nBig wave by Lorc, https://game-icons.net/1x1/lorc/big-wave.html, CC BY 3.0.\nRecolored cyan/white and rasterized. See licenses/QUINTARC-Wave-Icon.txt.\n'
+if '## Leviathan Surge water-wave icon' not in attrs.read_text():attrs.write_text(attrs.read_text()+note)
+print('Synced 126 current spells, matching icons, electrical/ice overview, game favicon and wave attribution.')

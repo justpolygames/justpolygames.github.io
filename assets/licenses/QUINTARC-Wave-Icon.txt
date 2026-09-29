@@ -1,0 +1,10 @@
+Big wave by Lorc
+Source: https://game-icons.net/1x1/lorc/big-wave.html
+Original SVG: https://game-icons.net/icons/ffffff/000000/1x1/lorc/big-wave.svg
+License: Creative Commons Attribution 3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+Original retained at assets/quintarc/symbols/big-wave.svg.
+Modifications: blue water-to-white foam gradient and dark teal background;
+256px PNG rasterization. Original wave silhouette unchanged.
+Reproduce with tools/build_wave_icon.py and tools/render_wave_icon.gd.
+Used for Leviathan Surge (05000) in HUD, Grimoire and the skill catalog.

@@ -11,6 +11,6 @@ Public Domain Dedication
 https://creativecommons.org/publicdomain/zero/1.0/
 
 
-Wizard from Ultimate Animated Character Pack (2019).
+Wizard, Witch and Elf from Ultimate Animated Character Pack (2019).
 https://quaternius.com/packs/ultimatedanimatedcharacter.html
 Source and checksum: assets/quintarc/simple-wizard/sources.json

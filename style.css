@@ -87,3 +87,10 @@ a.store-button:focus-visible{outline:3px solid #fa5c5c;outline-offset:4px}
 .store-button:disabled .store-label{background:#edf0f3}
 
 .wiki-hero>img.quintarc-hero-cover{object-fit:cover;background:#090e18}
+
+/* Keep QUINTARC artwork full width without cropping its title or seals. */
+.quintarc-art{height:auto;aspect-ratio:2/1}
+.quintarc-art img{display:block;width:100%;height:100%;object-fit:cover}
+.wiki-hero.quintarc{grid-template-columns:minmax(0,1fr)}
+.wiki-hero>img.quintarc-hero-cover{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:contain}
+.inspiration{max-width:70ch;color:var(--text)}

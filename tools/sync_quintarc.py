@@ -20,7 +20,7 @@ text,n=re.subn(r'<div class="spell-list">.*?</div></section>','<div class="spell
 shutil.copy2(root/'assets/quintarc-app.png',site/'assets/quintarc-app.png')
 version=hashlib.sha256((site/'assets/quintarc-app.png').read_bytes()).hexdigest()[:12]
 text=re.sub(r'<link rel="icon"[^>]*>',f'<link rel="icon" href="../assets/quintarc-app.png?v={version}" type="image/png">',text)
-blurb='<p class="spell-roles">Freeze and slow enemies with Frost Lance, Flash Freeze, and Blizzard. Use Chain Lightning to arc between visible enemies, Static Javelin to interrupt a caster, or Thundercloud to control an area with electrical shocks. Other combinations provide roots, silence, protective recovery, and movement tools—choose the role that fits your fight.</p>'
+blurb='<p class="spell-roles">Encapsulate enemies in ice with Flash Freeze and Blizzard. Matching Earth, Fire, electrical, and Arcane skills apply Poison, Burn, Shock, and Mana Drain. Shock prevents new invocations while leaving stored spells available. Shields block incoming debuffs; cleanse skills remove active effects.</p>'
 text=re.sub(r'<p class="spell-roles">.*?</p>','',text)
 needle='<section class="wiki-section" id="overview">';start=text.index(needle);end=text.index('</section>',start);text=text[:end]+blurb+text[end:]
 page.write_text(text)

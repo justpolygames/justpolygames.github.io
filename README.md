@@ -60,3 +60,9 @@ Item and mob portraits are 512px Godot captures from isolated copies of the sour
 ## Updating the QUINTARC guide
 
 Run `python3 tools/sync_quintarc.py --source /path/to/quintarc` after verifying the game changes. This synchronizes all 126 descriptions, recipes, icons and the game favicon from the runtime registry. Review and browser-check the generated page before pushing main.
+
+## Clean URLs and feedback
+
+Pages live at `/games/project-pencil/`, `/games/quintarc/`, and `/credits/`. The former `.html` paths redirect, preserving query strings and anchors with JavaScript. Edit the directory `index.html` pages. Feedback uses the displayed email address; no sending service is configured.
+
+Refresh the skill guide with `python3 tools/sync_quintarc.py --source /path/to/quintarc`, then run `python3 tools/update_seo.py`.

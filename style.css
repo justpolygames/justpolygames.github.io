@@ -88,8 +88,6 @@ a.store-button:focus-visible{outline:3px solid #fa5c5c;outline-offset:4px}
 
 .wiki-hero>img.quintarc-hero-cover{object-fit:cover;background:#090e18}
 
-/* Match game-card cover heights; keep the detail-page cover full width. */
+/* Match homepage game-card cover heights. */
 .quintarc-art img{display:block;width:100%;height:100%;object-fit:cover}
-.wiki-hero.quintarc{grid-template-columns:minmax(0,1fr)}
-.wiki-hero>img.quintarc-hero-cover{display:block;width:100%;height:auto;aspect-ratio:2/1;object-fit:contain}
 .inspiration{max-width:70ch;color:var(--text)}

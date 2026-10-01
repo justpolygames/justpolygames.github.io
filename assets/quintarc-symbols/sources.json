@@ -1,0 +1,72 @@
+{
+  "air": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/wind-hole.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "aeb5c94b6986f9976f3f74ed4e5fbeae8fed335f10034ab7257b6620944ad0b1",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "305c2c89731d8a6bd3e4291ec8d44cb57f111d7f2b3f0935074af5562e2bf35a"
+  },
+  "arcane": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/magic-swirl.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "0caf11370169ccf706b8ff1beb6ac9f7d3246ac770063c654dd42df0f592addd",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "ee5c481f725e948c22e0d88d81e635eb0098398717aa0e180027932f3048460f"
+  },
+  "element-air": {
+    "source": "QUINTARC scripts/element_marks.gd and scripts/ui.gd draw_element_mark",
+    "author": "Just Poly Games",
+    "modifications": "SVG export of shared HUD/orb geometry",
+    "runtime_sha256": "ed5ff9402c040546b8c768f750284333b8aef34240d076a62a2219a414373c9d"
+  },
+  "element-arcane": {
+    "source": "QUINTARC scripts/element_marks.gd and scripts/ui.gd draw_element_mark",
+    "author": "Just Poly Games",
+    "modifications": "SVG export of shared HUD/orb geometry",
+    "runtime_sha256": "7326d2f17ba71ec922e65778d1818eaebe313fa48c42836c63145f473df0b252"
+  },
+  "element-earth": {
+    "source": "QUINTARC scripts/element_marks.gd and scripts/ui.gd draw_element_mark",
+    "author": "Just Poly Games",
+    "modifications": "SVG export of shared HUD/orb geometry",
+    "runtime_sha256": "9e22918a2b2b903338f0b3b5e62a6b81d15676fa080bedfcedd0ab5e3511db36"
+  },
+  "element-fire": {
+    "source": "QUINTARC scripts/element_marks.gd and scripts/ui.gd draw_element_mark",
+    "author": "Just Poly Games",
+    "modifications": "SVG export of shared HUD/orb geometry",
+    "runtime_sha256": "3d0668d1a8d3d4f11bd913eeda253b58b27db4f6d2f89b9fddead6bad725c1e4"
+  },
+  "element-water": {
+    "source": "QUINTARC scripts/element_marks.gd and scripts/ui.gd draw_element_mark",
+    "author": "Just Poly Games",
+    "modifications": "SVG export of shared HUD/orb geometry",
+    "runtime_sha256": "c36814baf69712018aa63c646976b63b21099251d711ea79dc05ecb7219321cb"
+  },
+  "life": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/zeromancer/heart-plus.svg",
+    "author": "zeromancer",
+    "license": "CC0",
+    "sha256": "95c15119bf69d0b40bac99363e8683327e504849a9b65aef6ef8dd38d56f88c0",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "0875e065cb6f46121d3f6c3fb8c88459dc2988fbfe6ca8cf9046d41d7d5d8a76"
+  },
+  "mana": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/magic-potion.svg",
+    "author": "delapouite",
+    "license": "CC BY 3.0",
+    "sha256": "4c087818f17b886d98eb440912c0bfd3d86ca97373e7f488f5e901a700cab51a",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "80475cbfec75a8d1376e12b0e9b8f8c3a87b1a4a1e58cc2e6cf8d5a29147e58c"
+  },
+  "rune": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/rune-stone.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "12bfb1ab9a536fd3cb04bbb68773631c88a4cc2a4c5aba87ad078794dc39921c",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "83e0f3b4983fa7d95161e1ae2451a8c61d3d57d11c991cf1cb725c8483604e2e"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "cards": 126,
+      "heights": [
+        446.640625
+      ],
+      "footerGaps": [
+        21
+      ],
+      "overflow": false,
+      "pageOverflow": false,
+      "latest": false,
+      "filter": true
+    },
+    {
+      "width": 960,
+      "cards": 126,
+      "heights": [
+        540.203125
+      ],
+      "footerGaps": [
+        21
+      ],
+      "overflow": false,
+      "pageOverflow": false,
+      "latest": false,
+      "filter": true
+    },
+    {
+      "width": 390,
+      "cards": 126,
+      "heights": [
+        645.875
+      ],
+      "footerGaps": [
+        21
+      ],
+      "overflow": false,
+      "pageOverflow": false,
+      "latest": false,
+      "filter": true
+    }
+  ],
+  "errors": []
+}

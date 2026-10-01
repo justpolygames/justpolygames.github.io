@@ -66,3 +66,7 @@ Run `python3 tools/sync_quintarc.py --source /path/to/quintarc` after verifying 
 Pages live at `/games/project-pencil/`, `/games/quintarc/`, and `/credits/`. The former `.html` paths redirect, preserving query strings and anchors with JavaScript. Edit the directory `index.html` pages. Feedback uses the displayed email address; no sending service is configured.
 
 Refresh the skill guide with `python3 tools/sync_quintarc.py --source /path/to/quintarc`, then run `python3 tools/update_seo.py`.
+
+## Player guide presentation
+
+Keep release notes and version-change announcements on the dedicated itch.io pages. The website is an evergreen player guide. Spell cards use equal grid-row heights and a bottom-aligned mana/cooldown and key footer; keep filtering compatible with their flex layout. Verified at 1440, 960 and 390px in `validation/menu-cards/`.

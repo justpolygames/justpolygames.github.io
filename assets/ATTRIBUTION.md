@@ -19,3 +19,7 @@ Item and mob portraits: Godot renders of the existing Project Pencil artwork and
 
 Big wave by Lorc, https://game-icons.net/1x1/lorc/big-wave.html, CC BY 3.0.
 Recolored cyan/white and rasterized. See licenses/QUINTARC-Wave-Icon.txt.
+
+## QUINTARC element and rune symbols
+
+Exact in-game SVGs, copied unchanged. Game-icons.net contributors, CC BY 3.0; transparent-background adaptations and author/source hashes are listed in [quintarc-symbols/sources.json](quintarc-symbols/sources.json). See [license](quintarc-symbols/LICENSE.txt). Colors match the game.

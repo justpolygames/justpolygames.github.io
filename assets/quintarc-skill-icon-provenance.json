@@ -843,11 +843,11 @@
         "sha256": "682f301b5523004fdd3a7e3a6e9ead169137dafb390626e5bdd2943c1172cda6"
       },
       "badge": {
-        "source": "delapouite/invisible.svg",
-        "author": "delapouite",
+        "source": "sbed/shield.svg",
+        "author": "sbed",
         "license": "CC BY 3.0",
-        "url": "https://game-icons.net/1x1/delapouite/invisible.html",
-        "sha256": "4e0efd3619836aa3a5f705f4f5e302f2a7756966cc30b42955ff08f272afcfdc"
+        "url": "https://game-icons.net/1x1/sbed/shield.html",
+        "sha256": "7af285f360e49dbf400607423d5cf8531f7987055a338f24352843175a2036cb"
       }
     },
     "13001": {
@@ -907,11 +907,11 @@
         "sha256": "280d9acf7de0b844c24bdbcd8bc2489e8394c2ae3fc86c492a38d6b74f6e836e"
       },
       "badge": {
-        "source": "delapouite/invisible.svg",
+        "source": "delapouite/team-upgrade.svg",
         "author": "delapouite",
         "license": "CC BY 3.0",
-        "url": "https://game-icons.net/1x1/delapouite/invisible.html",
-        "sha256": "4e0efd3619836aa3a5f705f4f5e302f2a7756966cc30b42955ff08f272afcfdc"
+        "url": "https://game-icons.net/1x1/delapouite/team-upgrade.html",
+        "sha256": "be6c23ba3cc60be42f95ba1f84a636b2c404d9902d21d7fe0ebd17aa555833ad"
       }
     },
     "11300": {
@@ -1172,18 +1172,18 @@
     },
     "01013": {
       "main": {
-        "source": "lorc/teleport.svg",
+        "source": "lorc/anchor.svg",
         "author": "lorc",
         "license": "CC BY 3.0",
-        "url": "https://game-icons.net/1x1/lorc/teleport.html",
-        "sha256": "280d9acf7de0b844c24bdbcd8bc2489e8394c2ae3fc86c492a38d6b74f6e836e"
+        "url": "https://game-icons.net/1x1/lorc/anchor.html",
+        "sha256": "134bba71f6b20c1983e821a0a36d6c83b813080951f1a5806c86a8136556f550"
       },
       "badge": {
-        "source": "sbed/shield.svg",
-        "author": "sbed",
+        "source": "delapouite/fog.svg",
+        "author": "delapouite",
         "license": "CC BY 3.0",
-        "url": "https://game-icons.net/1x1/sbed/shield.html",
-        "sha256": "7af285f360e49dbf400607423d5cf8531f7987055a338f24352843175a2036cb"
+        "url": "https://game-icons.net/1x1/delapouite/fog.html",
+        "sha256": "682f301b5523004fdd3a7e3a6e9ead169137dafb390626e5bdd2943c1172cda6"
       }
     },
     "00113": {
@@ -1380,18 +1380,18 @@
     },
     "20012": {
       "main": {
-        "source": "lorc/teleport.svg",
-        "author": "lorc",
-        "license": "CC BY 3.0",
-        "url": "https://game-icons.net/1x1/lorc/teleport.html",
-        "sha256": "280d9acf7de0b844c24bdbcd8bc2489e8394c2ae3fc86c492a38d6b74f6e836e"
-      },
-      "badge": {
         "source": "delapouite/rock-golem.svg",
         "author": "delapouite",
         "license": "CC BY 3.0",
         "url": "https://game-icons.net/1x1/delapouite/rock-golem.html",
         "sha256": "eb59c6be3484420b6b53e3b5445dd3e3e30fe881a06a7416dbdeea5d4ec791db"
+      },
+      "badge": {
+        "source": "lorc/spiky-explosion.svg",
+        "author": "lorc",
+        "license": "CC BY 3.0",
+        "url": "https://game-icons.net/1x1/lorc/spiky-explosion.html",
+        "sha256": "9a993f3cfccf7f4df86aa127d8b28c0993a87795af117dbd3feceedad3b10a71"
       }
     },
     "12200": {
@@ -1524,18 +1524,18 @@
     },
     "02012": {
       "main": {
-        "source": "delapouite/invisible.svg",
+        "source": "delapouite/fog.svg",
         "author": "delapouite",
         "license": "CC BY 3.0",
-        "url": "https://game-icons.net/1x1/delapouite/invisible.html",
-        "sha256": "4e0efd3619836aa3a5f705f4f5e302f2a7756966cc30b42955ff08f272afcfdc"
+        "url": "https://game-icons.net/1x1/delapouite/fog.html",
+        "sha256": "682f301b5523004fdd3a7e3a6e9ead169137dafb390626e5bdd2943c1172cda6"
       },
       "badge": {
-        "source": "zeromancer/heart-plus.svg",
-        "author": "zeromancer",
-        "license": "CC0",
-        "url": "https://game-icons.net/1x1/zeromancer/heart-plus.html",
-        "sha256": "95c15119bf69d0b40bac99363e8683327e504849a9b65aef6ef8dd38d56f88c0"
+        "source": "delapouite/team-upgrade.svg",
+        "author": "delapouite",
+        "license": "CC BY 3.0",
+        "url": "https://game-icons.net/1x1/delapouite/team-upgrade.html",
+        "sha256": "be6c23ba3cc60be42f95ba1f84a636b2c404d9902d21d7fe0ebd17aa555833ad"
       }
     },
     "10220": {
@@ -1636,11 +1636,11 @@
     },
     "10022": {
       "main": {
-        "source": "lorc/teleport.svg",
+        "source": "lorc/sprint.svg",
         "author": "lorc",
         "license": "CC BY 3.0",
-        "url": "https://game-icons.net/1x1/lorc/teleport.html",
-        "sha256": "280d9acf7de0b844c24bdbcd8bc2489e8394c2ae3fc86c492a38d6b74f6e836e"
+        "url": "https://game-icons.net/1x1/lorc/sprint.html",
+        "sha256": "0c3c00ac8e9e9299c32ef5d5cc788d2d7c60614fdc382c3706d1d36783941c36"
       },
       "badge": {
         "source": "delapouite/sparkles.svg",
@@ -1787,11 +1787,11 @@
         "sha256": "e303d2c9e69011facea6678397e10ed8ad3cdfe769fe5ff740a552e563f09e7d"
       },
       "badge": {
-        "source": "zeromancer/heart-plus.svg",
-        "author": "zeromancer",
-        "license": "CC0",
-        "url": "https://game-icons.net/1x1/zeromancer/heart-plus.html",
-        "sha256": "95c15119bf69d0b40bac99363e8683327e504849a9b65aef6ef8dd38d56f88c0"
+        "source": "sbed/shield.svg",
+        "author": "sbed",
+        "license": "CC BY 3.0",
+        "url": "https://game-icons.net/1x1/sbed/shield.html",
+        "sha256": "7af285f360e49dbf400607423d5cf8531f7987055a338f24352843175a2036cb"
       }
     },
     "02111": {

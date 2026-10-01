@@ -28,7 +28,7 @@ for name,color in zip(elements,colors):
  section=re.sub(r'<h3>(?:<span class="quintarc-symbol"[^>]*></span>)?'+name.capitalize()+r'</h3>', '<h3>'+icon("element-"+name,color)+name.capitalize()+'</h3>', section)
 text=text[:start]+section+text[end:]
 tuning=json.loads((root/'data/rune_tuning.json').read_text())
-entries=[('Health',f'Restores up to {tuning["health_amount"]:g} health.'),('Mana',f'Restores up to {tuning["mana_amount"]:g} mana.'),('Magic',f'+{tuning["damage_bonus"]*100:g}% magic damage for {tuning["damage_duration"]:g} seconds.'),('Movement',f'+{tuning["speed_bonus"]*100:g}% movement speed for {tuning["speed_duration"]:g} seconds.'),('Invisibility',f'Conceals you for up to {tuning["invisibility_duration"]:g} seconds. Casting or taking damage reveals you.')]
+entries=[('Health',f'Restores up to {tuning["health_amount"]:g} health.'),('Mana',f'Restores up to {tuning["mana_amount"]:g} mana.'),('Magic',f'+{tuning["damage_bonus"]*100:g}% magic damage for {tuning["damage_duration"]:g} seconds.'),('Movement',f'+{tuning["speed_bonus"]*100:g}% movement speed for {tuning["speed_duration"]:g} seconds.'),('Invisibility',f'Conceals you for up to {tuning["invisibility_duration"]:g} seconds. Hidden from both teams. Casting ends invisibility; damaging hits from either team expose a transparent silhouette until it expires. Allied hits reveal without damage.')]
 block='<section class="wiki-section" id="runes"><h2>Know your runes</h2><p>Look for these symbols on rune pickups. Timed rune buffs use the same symbol and color in your HUD.</p><div class="info-grid">'
 for (name,description),symbol,color in zip(entries,rune_symbols,rune_colors):
  block+='<article class="info-card"><h3>'+icon(symbol,color)+name+'</h3><p>'+html.escape(description)+'</p></article>'

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8793/games/quintarc/",
+  "results": [
+    {
+      "width": 1440,
+      "cards": 126,
+      "exactGameSummaries": true,
+      "exactGameDetails": true,
+      "twoColumns": true,
+      "orderedSections": true,
+      "noOverflow": true,
+      "search": true
+    },
+    {
+      "width": 960,
+      "cards": 126,
+      "exactGameSummaries": true,
+      "exactGameDetails": true,
+      "twoColumns": true,
+      "orderedSections": true,
+      "noOverflow": true,
+      "search": true
+    },
+    {
+      "width": 390,
+      "cards": 126,
+      "exactGameSummaries": true,
+      "exactGameDetails": true,
+      "twoColumns": true,
+      "orderedSections": true,
+      "noOverflow": true,
+      "search": true
+    }
+  ],
+  "errors": []
+}

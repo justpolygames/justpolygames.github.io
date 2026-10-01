@@ -116,3 +116,13 @@ main.wrap>.contact-section.wrap{width:100%}
 /* The same licensed glyphs and colors used by QUINTARC pickups and its HUD. */
 .quintarc-symbol{display:inline-block;width:2rem;height:2rem;flex:0 0 2rem;background-color:var(--glyph-color);-webkit-mask:var(--glyph) center/contain no-repeat;mask:var(--glyph) center/contain no-repeat}
 #arenas .info-card h3,#runes .info-card h3{display:flex;align-items:center;gap:.65rem}
+
+/* Match the in-game grimoire: summary above two columns of labeled details. */
+.spell-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;border-top:1px solid var(--line);padding-top:14px;margin-bottom:18px;font-size:12px;line-height:1.65}
+.spell-details dl{margin:0;min-width:0}
+.spell-details dl>div{margin-bottom:7px;overflow-wrap:anywhere}
+.spell-details dt{display:inline;color:#d8bc80}
+.spell-details dd{display:inline;margin:0;color:var(--text)}
+.spell-card .spell-description{font-size:13px}
+@media(min-width:521px) and (max-width:1100px){.spell-list{grid-template-columns:1fr}}
+@media(max-width:520px){.spell-details{gap:12px}}

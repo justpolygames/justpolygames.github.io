@@ -70,3 +70,17 @@ Refresh the skill guide with `python3 tools/sync_quintarc.py --source /path/to/q
 ## Player guide presentation
 
 Keep release notes and version-change announcements on the dedicated itch.io pages. The website is an evergreen player guide. Spell cards use equal grid-row heights and a bottom-aligned mana/cooldown and key footer; keep filtering compatible with their flex layout. Verified at 1440, 960 and 390px in `validation/menu-cards/`.
+
+## Skill detail layout — 2026-10-01
+
+QUINTARC spell cards mirror the in-game grimoire: the runtime summary sits above
+ two columns of labeled base stats, followed by the aligned key footer. The sync
+script uses Godot (`godot` on PATH) to export `QuintarcSkills.details()` directly
+so labels, special-case values, and column ordering stay consistent with the game.
+Search includes summaries, full descriptions, and the displayed stats.
+Verified all 126 cards and search/clear/empty states at 1440, 960, and 390px;
+screenshots and results are in `validation/skill-details/`. The current verification is in `validation/skill-layout-current/`: all 126 cards
+match the runtime summaries and two-column details at 1440, 960 and 390px.
+Card order is icon/name, element combination, description, effects, then keys.
+Personal shields use hold/release; invisibility hides both teams and damaging
+hits reveal a transparent silhouette without friendly damage.

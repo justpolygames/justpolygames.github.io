@@ -32,10 +32,10 @@ entries=[('Health',f'Restores up to {tuning["health_amount"]:g} health.'),('Mana
 block='<section class="wiki-section" id="runes"><h2>Know your runes</h2><p>Look for these symbols on rune pickups. Timed rune buffs use the same symbol and color in your HUD.</p><div class="info-grid">'
 for (name,description),symbol,color in zip(entries,rune_symbols,rune_colors):
  block+='<article class="info-card"><h3>'+icon(symbol,color)+name+'</h3><p>'+html.escape(description)+'</p></article>'
-block+='</div><p>Pickups respawn after 30 seconds. Health and mana restore immediately; timed bonuses refresh instead of stacking.</p></section>'
+block+='</div><p>Five ground pickups and two health/mana pickups at stair-accessible terrace tops reward exploring each arena. Pickups respawn after 30 seconds. Health and mana restore immediately; timed bonuses refresh instead of stacking.</p></section>'
 text=re.sub(r'<section class="wiki-section" id="runes">.*?</section>','',text,flags=re.S)
 text=text.replace('<section class="wiki-section" id="campaign">',block+'<section class="wiki-section" id="campaign">')
 page.write_text(text)
-attrs=site/'assets/ATTRIBUTION.md';note='\n## QUINTARC element and rune symbols\n\nExact in-game SVGs, copied unchanged. Game-icons.net contributors, CC BY 3.0; transparent-background adaptations and author/source hashes are listed in [quintarc-symbols/sources.json](quintarc-symbols/sources.json). See [license](quintarc-symbols/LICENSE.txt). Colors match the game.\n'
+attrs=site/'assets/ATTRIBUTION.md';note='\n## QUINTARC element and rune symbols\n\nElement shapes are exported from QUINTARC’s shared HUD/orb geometry. Rune SVGs are copied unchanged from the game. Rune artwork: Game-icons.net contributors, CC BY 3.0; transparent-background adaptations and author/source hashes are listed in [quintarc-symbols/sources.json](quintarc-symbols/sources.json). See [license](quintarc-symbols/LICENSE.txt). Colors match the game.\n'
 if '## QUINTARC element and rune symbols' not in attrs.read_text(): attrs.write_text(attrs.read_text()+note)
 print('Synced five element and five rune symbols with source attribution.')

@@ -22,4 +22,4 @@ Recolored cyan/white and rasterized. See licenses/QUINTARC-Wave-Icon.txt.
 
 ## QUINTARC element and rune symbols
 
-Exact in-game SVGs, copied unchanged. Game-icons.net contributors, CC BY 3.0; transparent-background adaptations and author/source hashes are listed in [quintarc-symbols/sources.json](quintarc-symbols/sources.json). See [license](quintarc-symbols/LICENSE.txt). Colors match the game.
+Element shapes are exported from QUINTARC’s shared HUD/orb geometry. Rune SVGs are copied unchanged from the game. Rune artwork: Game-icons.net contributors, CC BY 3.0; transparent-background adaptations and author/source hashes are listed in [quintarc-symbols/sources.json](quintarc-symbols/sources.json). See [license](quintarc-symbols/LICENSE.txt). Colors match the game.

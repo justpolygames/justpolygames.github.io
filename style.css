@@ -115,7 +115,7 @@ main.wrap>.contact-section.wrap{width:100%}
 
 /* The same licensed glyphs and colors used by QUINTARC pickups and its HUD. */
 .quintarc-symbol{display:inline-block;width:2rem;height:2rem;flex:0 0 2rem;background-color:var(--glyph-color);-webkit-mask:var(--glyph) center/contain no-repeat;mask:var(--glyph) center/contain no-repeat}
-#arenas .info-card h3,#runes .info-card h3{display:flex;align-items:center;gap:.65rem}
+#arenas .info-card h3,#runes .info-card h3,#statuses .info-card h3{display:flex;align-items:center;gap:.65rem}
 
 /* Match the in-game grimoire: summary above two columns of labeled details. */
 .spell-details{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;border-top:1px solid var(--line);padding-top:14px;margin-bottom:18px;font-size:12px;line-height:1.65}

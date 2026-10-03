@@ -1,0 +1,6 @@
+Cethiel’s Dragon 3D
+Authors: Cethiel (original artwork), Drummyfish (3D mesh, textures and animations)
+Source: https://opengameart.org/content/cethiels-dragon-3d
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Adaptations: GLB conversion, retained four native actions and source brown texture; scene helpers removed, material rebuilt for glTF.

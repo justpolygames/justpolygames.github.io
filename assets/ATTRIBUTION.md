@@ -10,7 +10,7 @@ Controller illustration: original CSS geometry for this portfolio.
 
 Visual inspiration: GitMastery, https://gitmastery.me/. No GitMastery artwork or source code is redistributed.
 
-QUINTARC skill icons: Painterly Spell Icons, parts 1–4 by J. W. Bjerk (eleazzaar). Original PNGs copied unchanged. CC BY 3.0. See `skill-icons/LICENSE.txt` for license and source URLs.
+QUINTARC skill icons: human-authored Game-icons.net silhouettes with interaction badges. CC BY 3.0 or CC0 per source. Authors, original URLs and modifications are in skill-icons/sources.json; notices are in skill-icons/LICENSE.txt. Painterly Spell Icons by J. W. Bjerk remain credited for retained VFX artwork.
 
 Full wordmark: original supplied Just Poly Games logo, copied unchanged with its bright colors.
 Item and mob portraits: Godot renders of the existing Project Pencil artwork and QUINTARC KayKit/Quaternius models, under the game credits and licenses provided.
@@ -23,3 +23,7 @@ Recolored cyan/white and rasterized. See licenses/QUINTARC-Wave-Icon.txt.
 ## QUINTARC element and rune symbols
 
 Element shapes are exported from QUINTARC’s shared HUD/orb geometry. Rune SVGs are copied unchanged from the game. Rune artwork: Game-icons.net contributors, CC BY 3.0; transparent-background adaptations and author/source hashes are listed in [quintarc-symbols/sources.json](quintarc-symbols/sources.json). See [license](quintarc-symbols/LICENSE.txt). Colors match the game.
+
+## QUINTARC debuff icons and boss models
+
+All nine debuff glyphs match the game. Authors, licenses and modifications: quintarc-symbols/sources.json. Ward spider: Quaternius Easy Enemy Pack (CC0). Air eagle: Quaternius Animal Pack Vol.2 (CC0). Dragon: Cethiel / Drummyfish (CC0). Necromancer: recolored KayKit Hollow Seer with its original staff (CC0). Turtle: Heathal (CC0). Scorpion: Guillaume “GuieA_7” Englert (CC BY-SA 4.0), adapted GLB retains the same license. Armadillo and Bison: Poly by Google (CC BY 3.0), added game animation rigs. Rune Colossus: hendori-sama / umask007 / Dm3d / OpenDungeons (CC BY 3.0). Full notices are in the QUINTARC license library.

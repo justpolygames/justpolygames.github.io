@@ -1,0 +1,6 @@
+Animated Eagle — Quaternius
+Source: https://opengameart.org/node/78596
+Animal Pack Vol.2, published November 3, 2017.
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Original Blender mesh, skin, diffuse material colors and native Flying/Idle animations retained; converted to GLB. Scaled in game for the Air boss.

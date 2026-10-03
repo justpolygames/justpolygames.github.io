@@ -68,5 +68,77 @@
     "sha256": "12bfb1ab9a536fd3cb04bbb68773631c88a4cc2a4c5aba87ad078794dc39921c",
     "modifications": "Removed black background for transparent runtime tint",
     "runtime_sha256": "83e0f3b4983fa7d95161e1ae2451a8c61d3d57d11c991cf1cb725c8483604e2e"
+  },
+  "status-freeze": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/ice-cube.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "6edcf4e6099aeed05ac7e4e6a436d5c809d94e228f43578ed52f7372f99caac8",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "bab324304a74e3a53a94b633b5869a453ccd827cb932609b161ab72e5008a0fc"
+  },
+  "status-poison": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/sbed/poison-cloud.svg",
+    "author": "sbed",
+    "license": "CC BY 3.0",
+    "sha256": "6274654729fbbc0ef9a9de1542e7e017ced5655fc5b22bfa677feb8fc0f58743",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "54e9df2ead92ed4722de2b482db7294955b9cb17f1d67de60079da3cf4ce2459"
+  },
+  "status-burn": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/small-fire.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "d1885e9b5d463aa1ae7e139d9c148283b1ba92233f2fe8b2b90f1bf8821d5171",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "2f3478ed8b046574e368d8885604250fe382454304e4b2a3edd3c40c6df7a319"
+  },
+  "status-shock": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/lightning-branches.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "327a81a54dfe041fed7c1729623c7d4b5f1354ce88722745b280c3dd70d4f940",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "8d5e2addfa2ddee1b18a6352a52a5e9ee9ac66f11e16e1f67a54fa9374e8f89c"
+  },
+  "status-mana_drain": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/marrow-drain.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "4d3e64c854abdf83a1dd17111ea6759902abee4f2ba7374e2b7faad724df3731",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "6a58cc45af673e444d7a9ccec41eab4d6520a913b531720d0fa5d4d7126ce9cd"
+  },
+  "status-stun": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/guard13007/pause-button.svg",
+    "author": "guard13007",
+    "license": "CC BY 3.0",
+    "sha256": "5feb2ee970adfcd618d9256b32cfe0344376c668bd105a0ac93aad643ce623cf",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "35f21145c5b3a31dec9bdaf7bec13d239247f2a597bf84c75c7e12ffeb4a40fa"
+  },
+  "status-slow": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/quicksand.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "b1656180a5cf82682262a01c78221b1a4f70e9cdcfebfc26e410c91131c50d78",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "1eb13c0625da90b93db9e3777ecce962ce8b6aaa16f2d8bbb0081696a9fa1194"
+  },
+  "status-root": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/delapouite/tree-roots.svg",
+    "author": "delapouite",
+    "license": "CC BY 3.0",
+    "sha256": "310286bf3c90213f6841b5b4ddc1c01dd27b7230dcb118771472e4bc2416d452",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "e3d7c11a2cfb2bfc6771d1492ada949344976f8209f9649868fd6f7de344a235"
+  },
+  "status-silence": {
+    "source": "https://raw.githubusercontent.com/game-icons/icons/master/lorc/silence.svg",
+    "author": "lorc",
+    "license": "CC BY 3.0",
+    "sha256": "a78f9219942bffb33784313a2f48c7233e5ce389da786cff1ac32546219d2916",
+    "modifications": "Removed black background for transparent runtime tint",
+    "runtime_sha256": "542798162032a57fc2559ce02e792ca9118123e04ffc6046cdc2452e7cde517a"
   }
 }

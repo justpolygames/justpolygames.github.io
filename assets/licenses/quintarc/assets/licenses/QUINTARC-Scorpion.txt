@@ -1,0 +1,5 @@
+Scorpion — Guillaume “GuieA_7” Englert
+Source: https://opengameart.org/content/scorpion-3d
+License: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Modifications: Retained source mesh, texture, rig and animations; GLB conversion. Adapted asset remains CC BY-SA 4.0.

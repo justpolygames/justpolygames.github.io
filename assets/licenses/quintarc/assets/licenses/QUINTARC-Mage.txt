@@ -15,3 +15,6 @@ anatomical hierarchy; object scale applied; animation rest deltas retargeted fro
 the retained licensed KayKit rig at runtime; runtime clothing/skin colors and
 bounded fit/hat variations. No new character geometry or generated textures.
 Original facial geometry, topology, skin weights and material regions retained.
+
+2026-10-02: Used for Necromancer mobs and the Unbound Regent boss.
+Dark cloth palette, retained source geometry, KayKit-driven retargeted animation.

@@ -151,3 +151,8 @@ main.wrap>.contact-section.wrap{width:100%}
 
 /* Footer attribution stays opposite the studio logo. */
 .footer>span{margin-left:auto;text-align:right}
+
+/* QUINTARC covers retain their native ratio at every breakpoint. */
+.card-art.quintarc-art{height:auto;aspect-ratio:9/5}
+.card-art.quintarc-art img{display:block;width:100%;height:100%;object-fit:contain}
+.wiki-hero>img.quintarc-hero-cover{display:block;width:100%;height:auto;aspect-ratio:9/5;object-fit:contain}

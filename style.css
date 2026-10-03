@@ -126,3 +126,5 @@ main.wrap>.contact-section.wrap{width:100%}
 .spell-card .spell-description{font-size:13px}
 @media(min-width:521px) and (max-width:1100px){.spell-list{grid-template-columns:1fr}}
 @media(max-width:520px){.spell-details{gap:12px}}
+/* Keep the complete current QUINTARC seal visible in both cover placements. */
+.card-art.quintarc-art img,.wiki-hero>img.quintarc-hero-cover{object-fit:contain;background:#172638}

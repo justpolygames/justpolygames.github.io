@@ -2,7 +2,7 @@
 
 **Indie games by Anthony, a game developer from the Philippines.**
 
-[Visit the portfolio](https://justpolygames.github.io/) · [Project Pencil guide](https://justpolygames.github.io/games/project-pencil.html) · [QUINTARC guide](https://justpolygames.github.io/games/quintarc.html)
+[Visit the portfolio](https://justpolygames.github.io/) · [Project Pencil guide](https://justpolygames.github.io/games/project-pencil/) · [QUINTARC guide](https://justpolygames.github.io/games/quintarc/)
 
 I’m Anthony, the creator behind Just Poly Games. With experience in Web Design and UI/UX Design and a current role as a Product Manager, I’m turning a lifelong love of games into playable worlds.
 
@@ -20,8 +20,8 @@ Run `python3 -m http.server 8080` in this directory, then open http://localhost:
 ## Pages
 
 - `index.html`: introduction, three-column game collection, and background.
-- `games/project-pencil.html`: overview, drawing mechanics, equipment, story, modes, controls, and FAQ.
-- `games/quintarc.html`: mechanics, modes, arenas, campaign, controls, and 126 searchable spell entries.
+- `games/project-pencil/index.html`: overview, drawing mechanics, equipment, story, modes, controls, and FAQ.
+- `games/quintarc/index.html`: mechanics, modes, arenas, campaign, controls, and 126 searchable spell entries.
 
 ## Publishing
 
@@ -33,7 +33,7 @@ Edit HTML directly; shared styles and behavior live in `style.css` and `site.js`
 
 ## Content and artwork
 
-Game copy was checked against Project Pencil README and QUINTARC README, STORY_CAMPAIGN, SPELL_CATALOG, and generated spell descriptions on 2026-09-29. Development details may change. No public game download or hardware validation is promised.
+Game copy was checked against Project Pencil README and QUINTARC README, STORY_CAMPAIGN, SPELL_CATALOG, and generated spell descriptions on 2026-09-29. Development details may change. Store links lead to itch.io; native platform and hardware validation claims remain limited to recorded release checks.
 
 The existing Project Pencil cover and QUINTARC seal are reused from the owner’s game projects. The seal incorporates the previously licensed open-book silhouette from Game-icons.net; see `assets/ATTRIBUTION.md`. The portfolio controller is original CSS geometry. Visual inspiration: https://gitmastery.me/; no reference website code or assets were copied.
 
@@ -53,7 +53,7 @@ References: [Google structured data guidance](https://developers.google.com/sear
 
 ## Game reference content
 
-Project Pencil includes all 30 drawing recipes plus the permanent Pencil, seven base mobs, and its named guardians. QUINTARC includes seven base mobs, its five campaign guardians, and all 126 matching skill icons. `validation/guide-content-sources.json` records source paths, names, and copied icon hashes. Icon attribution is on the Credits page and in `assets/skill-icons/LICENSE.txt`.
+Project Pencil includes all 30 drawing recipes plus the permanent Pencil, seven base mobs, and its named guardians. QUINTARC includes 15 normal mobs, five shared Story/Ward bosses, and all 126 matching skill icons. `validation/guide-content-sources.json` records source paths, names, and copied icon hashes. Icon attribution is on the Credits page and in `assets/skill-icons/LICENSE.txt`.
 
 Item and mob portraits are 512px Godot captures from isolated copies of the source geometry and licensed models, with Hole rendered from its actual recipe strokes. Original game projects were not edited.
 

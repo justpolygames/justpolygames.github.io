@@ -53,7 +53,7 @@ References: [Google structured data guidance](https://developers.google.com/sear
 
 ## Game reference content
 
-Project Pencil includes all 30 drawing recipes plus the permanent Pencil, seven base mobs, and its named guardians. QUINTARC includes 15 normal mobs, five shared Story/Ward bosses, and all 126 matching skill icons. `validation/guide-content-sources.json` records source paths, names, and copied icon hashes. Icon attribution is on the Credits page and in `assets/skill-icons/LICENSE.txt`.
+Project Pencil includes all 30 drawing recipes plus the permanent Pencil, seven base mobs, and its named guardians. QUINTARC includes 20 normal mobs, five shared Story/Ward bosses, and all 126 matching skill icons. `validation/guide-content-sources.json` records source paths, names, and copied icon hashes. Icon attribution is on the Credits page and in `assets/skill-icons/LICENSE.txt`.
 
 Item and mob portraits are 512px Godot captures from isolated copies of the source geometry and licensed models, with Hole rendered from its actual recipe strokes. Original game projects were not edited.
 

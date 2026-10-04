@@ -2,4 +2,4 @@ Bison — Poly by Google
 Source: https://poly.pizza/m/9sTrha-TxdS
 License: CC BY 3.0
 https://creativecommons.org/licenses/by/3.0/
-Modifications: Retained mesh, UVs and texture. Added skeletal weights and idle/walk/attack/cast/death animation; normalized transforms.
+Modifications: Retained source UVs and texture. Extended both horns 25% from their bases. Added skeletal weights and idle/walk/head-driven horn thrust/cast/death animation; normalized transforms.

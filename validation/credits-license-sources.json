@@ -1,5 +1,5 @@
 {
-  "notices": [
+  "files": [
     {
       "game": "project-pencil",
       "source": "addons/gd-eos/LICENSE",
@@ -226,7 +226,7 @@
       "game": "quintarc",
       "source": "assets/licenses/QUINTARC-Mage.txt",
       "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Mage.txt",
-      "sha256": "ba4f5e52ab823d238c2a10b97847f69ef7157275ebfc8a8c0a676c9ccdbebf91"
+      "sha256": "2574131e008db60f8dc719fd498207cedabf15ceab794e5439579b3c6e87f59f"
     },
     {
       "game": "quintarc",
@@ -322,8 +322,80 @@
       "game": "quintarc",
       "source": "assets/quintarc/symbols/license.txt",
       "copy": "assets/licenses/quintarc/assets/quintarc/symbols/license.txt",
-      "sha256": "da9ce309ed6f057363eacbba6f5039690495fe4dd17f1efa72597a95661e05fe"
+      "sha256": "1fd7a875e5cd7658445a6c9d54f93d661bda77ec5b2c26d2717ed2b06393a524"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Easy-Enemies.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Easy-Enemies.txt",
+      "sha256": "3f0f67ce71d780e421f6b11f37402da07348ea3e23d77c16b1af05ad78023cb7"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Skill-Identity-Icons.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Skill-Identity-Icons.txt",
+      "sha256": "fac95252798668fab5ea2cb08338f2ebc6bf894a72b19a15af1ca62f0a6d2e79"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Wave-Icon.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Wave-Icon.txt",
+      "sha256": "75bbcda3ece2e52df1160c066bd5ec987a41a395c6b323c070ee4f17ec2cf94e"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Wizard-CC0.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Wizard-CC0.txt",
+      "sha256": "710de89c3f6095d584c8321e7bde31da8b080ed15852eb51d33efb0813610bba"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Ancient-Dragon.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Ancient-Dragon.txt",
+      "sha256": "3e407b8459939ab23ca1b13726f90b2971e3244673bbda901225d10899980afc"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Eagle.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Eagle.txt",
+      "sha256": "d2f7c0b68bfbb45aaab426c1949bd1e5e2b3f87b540423992c6f4cb725d0d936"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Armadillo.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Armadillo.txt",
+      "sha256": "c1edbad060b12e14ff4baee9f1593f54a13a4a1f6d8d4171e2d6c7deddc50d50"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Bison.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Bison.txt",
+      "sha256": "3ad07ec50afbc08b5bae1d064cf378bdc8ee1bce9b4959ef0fb499a63f552b83"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Scorpion.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Scorpion.txt",
+      "sha256": "c03e849a56bc8873fbc883d314cb7f662150a309ea11269a2aada47b778c36e5"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Turtle.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Turtle.txt",
+      "sha256": "6503f83567c9e4e8b9c0ef82b88ce28fdeb5119e600fb8dc4962a5b10f88b0c5"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/licenses/QUINTARC-Ultimate-Monsters.txt",
+      "copy": "assets/licenses/quintarc/assets/licenses/QUINTARC-Ultimate-Monsters.txt",
+      "sha256": "de990ef6fc68cffd7fd1ae342c4d0c823b541b8848d8f76bca5d3339f4de6f6e"
+    },
+    {
+      "game": "quintarc",
+      "source": "assets/vfx/third_party/binbun-elemental/LICENSE.txt",
+      "copy": "assets/licenses/quintarc/assets/vfx/third_party/binbun-elemental/LICENSE.txt",
+      "sha256": "c673038ad3327f4244eecf157de5f993272bed1ecfa0ec604a889be420a11507"
     }
   ],
-  "total": 54
+  "total": 66
 }

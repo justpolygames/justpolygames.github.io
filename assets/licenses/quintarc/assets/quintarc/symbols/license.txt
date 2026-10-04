@@ -48,3 +48,5 @@ Open book (Invoke) and Book cover (Skills): Lorc, game-icons.net, CC BY 3.0.
 https://game-icons.net/1x1/lorc/open-book.html
 https://game-icons.net/1x1/lorc/book-cover.html
 QUINTARC game emblem incorporates the Open book with five orb circles and a frame.
+
+Status HUD glyphs: Pause button by Guard13007; Tree roots by Delapouite; Poison cloud by Sbed; Quicksand, Silence, Ice cube, Small fire, Lightning branches and Marrow drain by Lorc. CC BY 3.0, game-icons.net. Black backgrounds removed; runtime tint applied. Exact sources and hashes: sources.json.

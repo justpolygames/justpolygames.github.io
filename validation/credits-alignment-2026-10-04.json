@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-04",
+  "scope": "Credits and guides aligned with local QUINTARC 0.1.8 and Project Pencil 0.6.29 source; does not assert binary upload",
+  "checks": {
+    "matching_license_notices": 66,
+    "quintarc_normal_mobs": 20,
+    "quintarc_spell_cards": 126,
+    "credit_records_match_game": true,
+    "broken_internal_links": 0
+  },
+  "game_change": "Project Pencil About reads application/config/version dynamically; no rebuild"
+}
